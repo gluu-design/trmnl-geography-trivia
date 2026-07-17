@@ -17,10 +17,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install langchain-google-genai requests pydantic
+      - name: Install official libraries
+        run: pip install google-genai requests
 
       - name: Run Script
         env:
