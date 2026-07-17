@@ -2,8 +2,9 @@ name: TRMNL Daily Geography Trivia
 
 on:
   schedule:
-    - cron: '0 12,22 * * *'
-  workflow_dispatch:
+    # Runs at ~6:00 AM EDT (10:00 UTC) and ~6:00 PM EDT (22:00 UTC)
+    - cron: '0 10,22 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
   run-trivia:
@@ -17,8 +18,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install latest libraries
-        run: pip install -U google-genai requests
+      - name: Install dependencies
+        run: pip install -U google-genai requests pytz
 
       - name: Run Script
         env:
