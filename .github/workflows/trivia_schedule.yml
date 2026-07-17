@@ -2,21 +2,23 @@ name: Generate Daily Geo Loop Data
 
 on:
   schedule:
-    # Runs twice a day (e.g., 6:00 AM and 6:00 PM UTC)
-    - cron: '0 6,18 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+    # 6:00 AM EDT -> 10:00 UTC
+    - cron: '0 10 * * *'
+    # 6:00 PM EDT -> 22:00 UTC
+    - cron: '0 22 * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write # Allows the runner to commit generated files back
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  update-geo-loop:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Full history prevents commit conflicts
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,22 +28,16 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-genai Pillow
+          pip install google-genai pillow
 
-      - name: Run GEO LOOP Script
+      - name: Run Trivia Generator
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python trmnl_trivia.py
 
-      # PERSISTENCE: Commit history.json, data.json, and generated image.png back to main branch
-      - name: Commit and Push Updated Data
+      - name: Commit Updated Data & History
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add history.json data.json image.png
-          if ! git diff --cached --exit-code; then
-            git commit -m "Automated update: data.json, history.json, and image.png"
-            git push
-          else
-            echo "No data or image changes detected."
-          fi
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json history.json image.png || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update Geo Loop trivia feed" && git push)
