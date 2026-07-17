@@ -6,7 +6,7 @@ import requests
 from google import genai
 
 def clean_json_string(text: str) -> str:
-    """Removes markdown code block formatting if present."""
+    """Removes markdown code blocks if present."""
     text = text.strip()
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
@@ -42,14 +42,14 @@ def main():
         "}"
     )
 
-    # 4. Request response using stable gemini-2.0-flash
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt
+    # 4. Use Google's Interactions API endpoint
+    interaction = client.create(
+        model="gemini-3.5-flash",
+        input=prompt
     )
 
-    # 5. Parse JSON output safely
-    raw_text = response.text
+    # 5. Extract output text and parse JSON
+    raw_text = interaction.output_text
     json_str = clean_json_string(raw_text)
     trivia_data = json.loads(json_str)
 
