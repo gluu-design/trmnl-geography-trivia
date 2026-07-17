@@ -15,7 +15,7 @@ def clean_json_string(text: str) -> str:
     return text
 
 def main():
-    # 1. Determine local time state for America/New_York
+    # 1. Determine local time state for New York (EST/EDT)
     local_tz = pytz.timezone("America/New_York")
     now_local = datetime.now(local_tz)
     current_hour = now_local.hour
@@ -58,15 +58,17 @@ def main():
     json_str = clean_json_string(raw_text)
     trivia_data = json.loads(json_str)
 
-    # 6. Construct payload for TRMNL
+    # 6. Construct payload wrapped in merge_variables (Required by TRMNL)
     payload = {
-        "date": now_local.strftime("%B %d, %Y"),
-        "country": trivia_data.get("country", "Geography Trivia"),
-        "stat_category": trivia_data.get("stat_category", "Fun Stat"),
-        "question": trivia_data.get("question", "Question unavailable"),
-        "answer": trivia_data.get("answer", "Answer unavailable"),
-        "fun_fact": trivia_data.get("fun_fact", ""),
-        "show_answer": show_answer
+        "merge_variables": {
+            "date": now_local.strftime("%B %d, %Y"),
+            "country": trivia_data.get("country", "Geography Trivia"),
+            "stat_category": trivia_data.get("stat_category", "Fun Stat"),
+            "question": trivia_data.get("question", "Question unavailable"),
+            "answer": trivia_data.get("answer", "Answer unavailable"),
+            "fun_fact": trivia_data.get("fun_fact", ""),
+            "show_answer": show_answer
+        }
     }
 
     # 7. Push payload to TRMNL Webhook
