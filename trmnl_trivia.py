@@ -11,10 +11,14 @@ def main():
     current_hour = datetime.now().hour
     show_answer = current_hour >= 18 or current_hour < 4
 
-    # Connect to Google Gemini
+    # Connect to Google Gemini using the environment variable
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY environment variable is missing!")
+
     llm = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash", 
-        google_api_key=os.getenv("GEMINI_API_KEY"),
+        google_api_key=api_key,
         temperature=0.8
     )
 
@@ -46,6 +50,9 @@ def main():
 
     # Post to TRMNL
     webhook_url = os.getenv("TRMNL_WEBHOOK_URL")
+    if not webhook_url:
+        raise ValueError("TRMNL_WEBHOOK_URL environment variable is missing!")
+
     response = requests.post(
         webhook_url, 
         json=payload, 
