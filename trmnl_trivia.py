@@ -42,8 +42,8 @@ def main():
         "}"
     )
 
-    # 4. Use Google's Interactions API endpoint
-    interaction = client.create(
+    # 4. Use Google's Interactions API
+    interaction = client.interactions.create(
         model="gemini-3.5-flash",
         input=prompt
     )
