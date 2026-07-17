@@ -1,6 +1,5 @@
 import os
 import json
-import re
 from datetime import datetime
 import requests
 from google import genai
@@ -28,7 +27,7 @@ def main():
         "Respond strictly with JSON containing these exact keys: country, stat_category, question, answer, fun_fact."
     )
 
-    # 4. Request JSON response from Gemini 2.5 Flash
+    # 4. Request JSON response using current active Gemini model
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
@@ -38,7 +37,7 @@ def main():
         )
     )
 
-    # 5. Parse JSON output
+    # 5. Parse guaranteed JSON output
     trivia_data = json.loads(response.text)
 
     # 6. Construct payload for TRMNL
