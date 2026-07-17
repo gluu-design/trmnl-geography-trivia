@@ -17,12 +17,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install official libraries
-        run: pip install google-genai requests
+      - name: Install latest libraries
+        run: pip install -U google-genai requests
 
       - name: Run Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TRMNL_WEBHOOK_URL: ${{ secrets.TRMNL_WEBHOOK_URL }}
         run: python trmnl_trivia.py
