@@ -2,6 +2,7 @@ import os
 import json
 import re
 from datetime import datetime
+import pytz
 import requests
 from google import genai
 
@@ -14,9 +15,13 @@ def clean_json_string(text: str) -> str:
     return text
 
 def main():
-    # 1. Determine local time state (Evening reveal vs Morning question)
-    current_hour = datetime.now().hour
-    show_answer = current_hour >= 18 or current_hour < 4
+    # 1. Determine local time state for America/New_York
+    local_tz = pytz.timezone("America/New_York")
+    now_local = datetime.now(local_tz)
+    current_hour = now_local.hour
+
+    # False between 6:00 AM (6) and 5:59 PM (17). True from 6:00 PM (18) to 5:59 AM (5).
+    show_answer = current_hour >= 18 or current_hour < 6
 
     # 2. Retrieve secrets from environment
     api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
@@ -55,7 +60,7 @@ def main():
 
     # 6. Construct payload for TRMNL
     payload = {
-        "date": datetime.now().strftime("%B %d, %Y"),
+        "date": now_local.strftime("%B %d, %Y"),
         "country": trivia_data.get("country", "Geography Trivia"),
         "stat_category": trivia_data.get("stat_category", "Fun Stat"),
         "question": trivia_data.get("question", "Question unavailable"),
