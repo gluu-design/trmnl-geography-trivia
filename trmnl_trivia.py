@@ -2,17 +2,17 @@ import os
 import json
 import sys
 from datetime import datetime
-from PIL import Image, ImageDraw, ImageFont
-import google.generativeai as genai
+from PIL import Image, ImageDraw
+from google import genai
 
-# Setup Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# Setup Gemini API client using official google-genai SDK
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 HISTORY_FILE = "history.json"
 DATA_FILE = "data.json"
 IMAGE_FILE = "image.png"
 
-# Change this to match your GitHub Pages username & repo name!
+# UPDATE THIS URL to match your GitHub Pages endpoint!
 GITHUB_PAGES_BASE_URL = "https://gluu-design.github.io/trmnl-geography-trivia"
 
 def generate_eink_image(text_label="GEO LOOP"):
@@ -22,12 +22,12 @@ def generate_eink_image(text_label="GEO LOOP"):
     img = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(img)
 
-    # Outer border
+    # Outer border styling
     draw.rectangle([10, 10, width - 10, height - 10], outline=0, width=4)
     draw.rectangle([16, 16, width - 16, height - 16], outline=0, width=1)
 
     # Center Globe Ring Illustration
-    center_x, center_y, radius = width // 2, height // 2 - 15, 70
+    center_x, center_y, radius = width // 2, height // 2 - 10, 70
     draw.ellipse([center_x - radius, center_y - radius, center_x + radius, center_y + radius], outline=0, width=4)
     draw.ellipse([center_x - radius, center_y - 25, center_x + radius, center_y + 25], outline=0, width=2)
     draw.line([center_x, center_y - radius, center_x, center_y + radius], fill=0, width=2)
@@ -56,7 +56,6 @@ def save_history(history):
 
 def fetch_gemini_trivia(history):
     """Prompts Gemini to generate a unique geography trivia item."""
-    model = genai.GenerativeModel("gemini-1.5-flash")
     recent_countries = ", ".join(history.get("used_countries", [])[-30:])
     
     prompt = f"""
@@ -79,9 +78,10 @@ def fetch_gemini_trivia(history):
     }}
     """
     
-    response = model.generate_content(
-        prompt,
-        generation_config={"response_mime_type": "application/json"}
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+        config={"response_mime_type": "application/json"}
     )
     return json.loads(response.text)
 
