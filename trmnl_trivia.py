@@ -15,10 +15,20 @@ IMAGE_FILE = "image.png"
 # UPDATE THIS URL to match your GitHub Pages endpoint!
 GITHUB_PAGES_BASE_URL = "https://gluu-design.github.io/trmnl-geography-trivia"
 
+# Candidate models to try in order of preference
+FALLBACK_MODELS = [
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+    "gemini-flash-lite-latest",
+    "gemini-1.5-flash",
+    "gemini-2.5-pro",
+    "gemini-3.1-flash-lite"
+]
+
 def generate_eink_image(text_label="GEO LOOP"):
     """Generates a 1-bit monochrome black & white image for TRMNL."""
     width, height = 300, 300
-    # Create 1-bit monochrome image (mode '1': 0=black, 255=white)
     img = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(img)
 
@@ -33,7 +43,6 @@ def generate_eink_image(text_label="GEO LOOP"):
     draw.line([center_x, center_y - radius, center_x, center_y + radius], fill=0, width=2)
     draw.line([center_x - radius, center_y, center_x + radius, center_y], fill=0, width=2)
 
-    # Save 1-bit PNG
     img.save(IMAGE_FILE)
     print(f"Generated 1-bit e-ink image saved to {IMAGE_FILE}", flush=True)
     return f"{GITHUB_PAGES_BASE_URL}/{IMAGE_FILE}"
@@ -55,7 +64,7 @@ def save_history(history):
         json.dump(history, f, indent=2, ensure_ascii=False)
 
 def fetch_gemini_trivia(history):
-    """Prompts Gemini to generate a unique geography trivia item."""
+    """Prompts Gemini with automatic model fallback."""
     recent_countries = ", ".join(history.get("used_countries", [])[-30:])
     
     prompt = f"""
@@ -77,13 +86,25 @@ def fetch_gemini_trivia(history):
       "image_url": ""
     }}
     """
-    
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-        config={"response_mime_type": "application/json"}
-    )
-    return json.loads(response.text)
+
+    last_exception = None
+
+    # Loop through the available models until one succeeds
+    for model_name in FALLBACK_MODELS:
+        try:
+            print(f"Attempting trivia generation with model: {model_name}...", flush=True)
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config={"response_mime_type": "application/json"}
+            )
+            print(f"Successfully generated trivia using {model_name}!", flush=True)
+            return json.loads(response.text)
+        except Exception as e:
+            print(f"Model {model_name} failed or not found: {e}. Trying next model...", flush=True)
+            last_exception = e
+
+    raise RuntimeError(f"All fallback models failed. Last error: {last_exception}")
 
 def generate_geo_loop_data():
     now = datetime.now()
@@ -109,7 +130,6 @@ def generate_geo_loop_data():
         history = load_history()
         trivia = fetch_gemini_trivia(history)
         
-        # Generate the black and white image file
         generated_image_url = generate_eink_image(trivia.get("country", "GEO LOOP"))
         
         payload = {
