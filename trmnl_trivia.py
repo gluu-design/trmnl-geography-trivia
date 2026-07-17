@@ -1,10 +1,23 @@
+import os
+import json
+import sys
+from datetime import datetime
+import google.generativeai as genai
+
+# Setup Gemini API
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+HISTORY_FILE = "history.json"
+DATA_FILE = "data.json"
+
 def load_history():
     """Loads past questions/countries to avoid repetitions."""
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except Exception:
+        except Exception as e:
+            print(f"Error loading history.json: {e}", flush=True)
             return {"used_countries": [], "used_questions": []}
     return {"used_countries": [], "used_questions": []}
 
@@ -17,7 +30,6 @@ def fetch_gemini_trivia(history):
     """Prompts Gemini to generate a unique geography trivia item."""
     model = genai.GenerativeModel("gemini-1.5-flash")
     
-    # Reads from your "used_countries" key
     recent_countries = ", ".join(history.get("used_countries", [])[-30:])
     
     prompt = f"""
@@ -47,3 +59,54 @@ def fetch_gemini_trivia(history):
     
     trivia_data = json.loads(response.text)
     return trivia_data
+
+def generate_geo_loop_data():
+    now = datetime.now()
+    today_str = now.strftime("%B %d, %Y")
+    is_evening = now.hour >= 18  # True after 6:00 PM
+    
+    print(f"Starting GEO LOOP data generation for {today_str}...", flush=True)
+    
+    existing_data = None
+    if os.path.exists(DATA_FILE):
+        try:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        except Exception as e:
+            print(f"Notice: Could not parse existing data.json: {e}", flush=True)
+
+    if existing_data and existing_data.get("date") == today_str:
+        print(f"Using existing question for {today_str}. Setting show_answer={is_evening}", flush=True)
+        payload = existing_data
+        payload["show_answer"] = is_evening
+    else:
+        print(f"Calling Gemini API to generate new trivia...", flush=True)
+        history = load_history()
+        trivia = fetch_gemini_trivia(history)
+        
+        payload = {
+            "date": today_str,
+            "question": trivia["question"],
+            "answer": trivia["answer"],
+            "stat_category": trivia["stat_category"],
+            "country": trivia["country"],
+            "fun_fact": trivia["fun_fact"],
+            "image_url": trivia.get("image_url", ""),
+            "show_answer": is_evening
+        }
+        
+        history.setdefault("used_countries", []).append(trivia["country"])
+        history.setdefault("used_questions", []).append(trivia["question"])
+        save_history(history)
+
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+        
+    print(f"Successfully generated and saved {DATA_FILE}!", flush=True)
+
+if __name__ == "__main__":
+    try:
+        generate_geo_loop_data()
+    except Exception as err:
+        print(f"FATAL ERROR during execution: {err}", flush=True)
+        sys.exit(1)
