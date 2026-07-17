@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import random
 from datetime import datetime
 from PIL import Image, ImageDraw
 from google import genai
@@ -55,8 +56,8 @@ def load_history():
                 return json.load(f)
         except Exception as e:
             print(f"Notice: Could not load {HISTORY_FILE}: {e}", flush=True)
-            return {"used_countries": [], "used_questions": []}
-    return {"used_countries": [], "used_questions": []}
+            return {"used_countries": [], "used_questions": [], "past_trivia": []}
+    return {"used_countries": [], "used_questions": [], "past_trivia": []}
 
 def save_history(history):
     """Saves updated history to history.json."""
@@ -64,7 +65,7 @@ def save_history(history):
         json.dump(history, f, indent=2, ensure_ascii=False)
 
 def fetch_gemini_trivia(history):
-    """Prompts Gemini with automatic model fallback."""
+    """Prompts Gemini with automatic model fallback and historical fallback."""
     recent_countries = ", ".join(history.get("used_countries", [])[-30:])
     
     prompt = f"""
@@ -89,7 +90,7 @@ def fetch_gemini_trivia(history):
 
     last_exception = None
 
-    # Loop through the available models until one succeeds
+    # Try live AI models first
     for model_name in FALLBACK_MODELS:
         try:
             print(f"Attempting trivia generation with model: {model_name}...", flush=True)
@@ -101,10 +102,27 @@ def fetch_gemini_trivia(history):
             print(f"Successfully generated trivia using {model_name}!", flush=True)
             return json.loads(response.text)
         except Exception as e:
-            print(f"Model {model_name} failed or not found: {e}. Trying next model...", flush=True)
+            print(f"Model {model_name} failed: {e}. Trying next model...", flush=True)
             last_exception = e
 
-    raise RuntimeError(f"All fallback models failed. Last error: {last_exception}")
+    # FALLBACK: Random choice from history database
+    print("All live AI models failed. Checking historical database fallback...", flush=True)
+    past_items = history.get("past_trivia", [])
+    if past_items:
+        selected = random.choice(past_items)
+        print(f"Randomly re-using historical trivia item: {selected.get('question')}", flush=True)
+        return selected
+
+    # Ultimate default safety net
+    print("No history items found. Using default backup trivia.", flush=True)
+    return {
+        "question": "Which country has the most natural lakes in the world?",
+        "answer": "Canada",
+        "country": "Canada",
+        "stat_category": "Landforms",
+        "fun_fact": "Canada is home to over 60% of all the world's natural lakes, totaling over 879,000 lakes across its vast landscape.",
+        "image_url": ""
+    }
 
 def generate_geo_loop_data():
     now = datetime.now()
@@ -143,8 +161,15 @@ def generate_geo_loop_data():
             "show_answer": is_evening
         }
         
+        # Save trivia into past database history for future fallbacks
         history.setdefault("used_countries", []).append(trivia["country"])
         history.setdefault("used_questions", []).append(trivia["question"])
+        history.setdefault("past_trivia", [])
+        
+        # Avoid duplicate entries in past_trivia list
+        if not any(item.get("question") == trivia["question"] for item in history["past_trivia"]):
+            history["past_trivia"].append(trivia)
+            
         save_history(history)
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
