@@ -2,9 +2,8 @@ name: TRMNL Daily Geography Trivia
 
 on:
   schedule:
-    # Runs twice a day: ~8:00 AM EST (12:00 UTC) and ~6:00 PM EST (22:00 UTC)
     - cron: '0 12,22 * * *'
-  workflow_dispatch: # Allows manual testing
+  workflow_dispatch:
 
 jobs:
   run-trivia:
@@ -24,5 +23,6 @@ jobs:
       - name: Run Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TRMNL_WEBHOOK_URL: ${{ secrets.TRMNL_WEBHOOK_URL }}
         run: python trmnl_trivia.py
