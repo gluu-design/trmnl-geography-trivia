@@ -6,7 +6,7 @@ import requests
 from google import genai
 
 def clean_json_string(text: str) -> str:
-    """Removes markdown backticks and extracts raw JSON object."""
+    """Removes markdown code block formatting if present."""
     text = text.strip()
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
@@ -42,9 +42,9 @@ def main():
         "}"
     )
 
-    # 4. Request response using gemini-2.5-flash (confirmed active on your account)
+    # 4. Request response using stable gemini-2.0-flash
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-2.0-flash",
         contents=prompt
     )
 
