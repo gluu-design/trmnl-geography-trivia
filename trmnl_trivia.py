@@ -24,7 +24,6 @@ def generate_trivia_image(client, country: str, stat_category: str) -> str:
         f"Clean solid line art, white background, no color, no shading, e-ink screen style."
     )
     try:
-        # Use Gemini's image generation model available on your account
         result = client.models.generate_content(
             model="gemini-2.5-flash-image",
             contents=prompt,
@@ -33,7 +32,6 @@ def generate_trivia_image(client, country: str, stat_category: str) -> str:
             )
         )
         
-        # Extract the image bytes from response
         for part in result.candidates[0].content.parts:
             if hasattr(part, 'inline_data') and part.inline_data:
                 image_bytes = part.inline_data.data
@@ -41,7 +39,7 @@ def generate_trivia_image(client, country: str, stat_category: str) -> str:
                 print("Image generated successfully!")
                 return f"data:image/png;base64,{b64_str}"
     except Exception as e:
-        print(f"Warning: Image generation failed or not supported ({e}). Continuing without image.")
+        print(f"Warning: Image generation skipped or failed ({e}). Continuing without image.")
     
     return ""
 
@@ -51,7 +49,6 @@ def main():
     now_local = datetime.now(local_tz)
     current_hour = now_local.hour
 
-    # False between 6:00 AM (6) and 5:59 PM (17). True from 6:00 PM (18) to 5:59 AM (5).
     show_answer = current_hour >= 18 or current_hour < 6
 
     # 2. Retrieve secrets from environment
@@ -78,11 +75,24 @@ def main():
         "}"
     )
 
-    # 4. Generate Trivia Data
-    interaction = client.interactions.create(
-        model="gemini-3.5-flash",
-        input=prompt
-    )
+    # 4. Generate Trivia Data with Fallback for High Demand Spikes
+    models_to_try = ["gemini-3.5-flash", "gemini-3.1-flash-lite"]
+    interaction = None
+
+    for model_name in models_to_try:
+        try:
+            print(f"Attempting trivia generation with {model_name}...")
+            interaction = client.interactions.create(
+                model=model_name,
+                input=prompt
+            )
+            print(f"Successfully generated trivia with {model_name}!")
+            break
+        except Exception as e:
+            print(f"Warning: {model_name} hit an error or high demand ({e}). Trying fallback...")
+
+    if not interaction:
+        raise RuntimeError("CRITICAL ERROR: All Gemini models failed to respond.")
 
     raw_text = interaction.output_text
     json_str = clean_json_string(raw_text)
