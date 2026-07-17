@@ -1,9 +1,31 @@
 import os
 import json
+import re
 from datetime import datetime
 import requests
 from google import genai
 from google.genai import types
+
+def get_best_available_model(client):
+    """Query Google API for models supported by this key and return the best match."""
+    preferred_models = [
+        "gemini-3.5-flash",
+        "gemini-3-flash",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "gemini-1.5-flash"
+    ]
+    
+    try:
+        available = [m.name.replace("models/", "") for m in client.models.list()]
+        print(f"Models available on your account: {available}")
+        for pref in preferred_models:
+            if pref in available:
+                return pref
+    except Exception as e:
+        print(f"Warning: Could not fetch model list automatically ({e}). Falling back to gemini-3.5-flash.")
+    
+    return "gemini-3.5-flash"
 
 def main():
     # 1. Determine local time state (Evening reveal vs Morning question)
@@ -19,17 +41,24 @@ def main():
     if not webhook_url:
         raise ValueError("CRITICAL ERROR: TRMNL_WEBHOOK_URL secret is missing in GitHub settings.")
 
-    # 3. Initialize Google GenAI client
-    client = genai.Client(api_key=api_key)
+    # 3. Initialize Google GenAI client with v1 API
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(api_version="v1")
+    )
+
+    # 4. Dynamically detect the supported model
+    target_model = get_best_available_model(client)
+    print(f"Using model: {target_model}")
 
     prompt = (
         "Generate a fun geography trivia question based on an interesting or unusual statistic about a specific country or city.\n"
         "Respond strictly with JSON containing these exact keys: country, stat_category, question, answer, fun_fact."
     )
 
-    # 4. Request JSON response using current active Gemini model
+    # 5. Request JSON response from Gemini
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model=target_model,
         contents=prompt,
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
@@ -37,10 +66,10 @@ def main():
         )
     )
 
-    # 5. Parse guaranteed JSON output
+    # 6. Parse JSON output
     trivia_data = json.loads(response.text)
 
-    # 6. Construct payload for TRMNL
+    # 7. Construct payload for TRMNL
     payload = {
         "date": datetime.now().strftime("%B %d, %Y"),
         "country": trivia_data.get("country", "Geography Trivia"),
@@ -51,7 +80,7 @@ def main():
         "show_answer": show_answer
     }
 
-    # 7. Push payload to TRMNL Webhook
+    # 8. Push payload to TRMNL Webhook
     res = requests.post(
         webhook_url,
         json=payload,
