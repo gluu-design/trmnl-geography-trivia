@@ -1,4 +1,8 @@
 {
-  "used_countries": [],
-  "used_questions": []
+  "used_countries": [
+    "Mongolia"
+  ],
+  "used_questions": [
+    "Which country has the lowest population density in the world, with only about 2 people per square kilometer?"
+  ]
 }
