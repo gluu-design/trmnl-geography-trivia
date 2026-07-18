@@ -1,5 +1,15 @@
 {
-  "used_countries": [],
+  "used_countries": [
+    "Djibouti"
+  ],
   "used_questions": [],
-  "past_trivia": []
+  "past_trivia": [
+    {
+      "question": "Which desert is home to the lowest point in Africa, located at Lake Assal, which sits 155 meters below sea level?",
+      "answer": "Danakil Desert",
+      "country": "Djibouti",
+      "stat_category": "Landforms",
+      "fun_fact": "Lake Assal is the third lowest point on Earth and is the world's largest salt reserve, making its water nearly ten times saltier than the ocean."
+    }
+  ]
 }

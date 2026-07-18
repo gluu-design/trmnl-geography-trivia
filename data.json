@@ -1,10 +1,9 @@
 {
   "date": "July 18, 2026",
-  "question": "Which country is home to the lowest point on Earth's land surface, located at the shores of the Dead Sea?",
-  "answer": "Jordan",
+  "question": "Which desert is home to the lowest point in Africa, located at Lake Assal, which sits 155 meters below sea level?",
+  "answer": "Danakil Desert",
   "stat_category": "Landforms",
-  "country": "Jordan",
-  "fun_fact": "The Dead Sea shore sits at approximately 430 meters below sea level. Its hypersaline water allows people to float effortlessly.",
-  "image_url": "https://gluu-design.github.io/trmnl-geography-trivia/image.png",
-  "show_answer": true
+  "fun_fact": "Lake Assal is the third lowest point on Earth and is the world's largest salt reserve, making its water nearly ten times saltier than the ocean.",
+  "image_url": "image_v2.png",
+  "show_answer": false
 }
