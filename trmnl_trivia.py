@@ -26,8 +26,9 @@ FALLBACK_MODELS = [
 ]
 
 def generate_eink_image(text_label="GEO LOOP"):
-    """Generates a 1-bit monochrome black & white image for TRMNL."""
-    width, height = 300, 300
+    """Generates a 1-bit monochrome black & white image for TRMNL (200x200)."""
+    # Reduced dimensions to fit better within the template layout
+    width, height = 200, 200
     img = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(img)
 
