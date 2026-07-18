@@ -1,11 +1,22 @@
 {
   "used_countries": [
     "Mongolia",
-    "Kiribati"
+    "Kiribati",
+    "Jordan"
   ],
   "used_questions": [
     "Which country has the lowest population density in the world, with only about 2 people per square kilometer?",
-    "Which country is the only nation in the world that is simultaneously located in all four hemispheres (Northern, Southern, Eastern, and Western)?"
+    "Which country is the only nation in the world that is simultaneously located in all four hemispheres (Northern, Southern, Eastern, and Western)?",
+    "Which country is home to the lowest point on Earth's land surface, located at the shores of the Dead Sea?"
   ],
-  "past_trivia": []
+  "past_trivia": [
+    {
+      "question": "Which country is home to the lowest point on Earth's land surface, located at the shores of the Dead Sea?",
+      "answer": "Jordan",
+      "country": "Jordan",
+      "stat_category": "Landforms",
+      "fun_fact": "The Dead Sea shore sits at approximately 430 meters below sea level. Its hypersaline water allows people to float effortlessly.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Dead_Sea_Jordan.jpg/640px-Dead_Sea_Jordan.jpg"
+    }
+  ]
 }

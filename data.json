@@ -1,10 +1,10 @@
 {
-  "date": "July 17, 2026",
-  "question": "Which country is the only nation in the world that is simultaneously located in all four hemispheres (Northern, Southern, Eastern, and Western)?",
-  "answer": "Kiribati",
-  "stat_category": "Geography and Coordinates",
-  "country": "Kiribati",
-  "fun_fact": "Kiribati spans the equator and the 180th meridian, making it the only country to touch all four hemispheres. Because it spans such a wide area of the Pacific, it also stretches across the International Date Line, forcing the government to shift the line eastward in 1995 so that the entire nation could observe the same calendar day.",
+  "date": "July 18, 2026",
+  "question": "Which country is home to the lowest point on Earth's land surface, located at the shores of the Dead Sea?",
+  "answer": "Jordan",
+  "stat_category": "Landforms",
+  "country": "Jordan",
+  "fun_fact": "The Dead Sea shore sits at approximately 430 meters below sea level. Its hypersaline water allows people to float effortlessly.",
   "image_url": "https://gluu-design.github.io/trmnl-geography-trivia/image.png",
-  "show_answer": true
+  "show_answer": false
 }
