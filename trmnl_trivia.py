@@ -49,20 +49,26 @@ def generate_eink_image(text_label="GEO LOOP"):
     return f"{GITHUB_PAGES_BASE_URL}/{IMAGE_FILE}"
 
 def load_history():
-    """Loads past questions/countries to avoid repetitions."""
+    """Loads past questions/countries to avoid repetitions with solid fallbacks."""
+    default_structure = {"used_countries": [], "used_questions": [], "past_trivia": []}
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                content = json.load(f)
+                if isinstance(content, dict):
+                    # Ensure all arrays are structurally present
+                    for key in default_structure:
+                        content.setdefault(key, [])
+                    return content
         except Exception as e:
             print(f"Notice: Could not load {HISTORY_FILE}: {e}", flush=True)
-            return {"used_countries": [], "used_questions": [], "past_trivia": []}
-    return {"used_countries": [], "used_questions": [], "past_trivia": []}
+    return default_structure
 
 def save_history(history):
     """Saves updated history to history.json."""
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
+    print(f"Successfully sync'd records to {HISTORY_FILE}!", flush=True)
 
 def fetch_gemini_trivia(history):
     """Prompts Gemini with automatic model fallback and historical fallback."""
@@ -133,7 +139,10 @@ def generate_geo_loop_data():
     print(f"Starting GEO LOOP generation for {today_str}...", flush=True)
     print(f"Current EDT Hour: {now.hour} | show_answer: {is_evening}", flush=True)
     
+    # Always establish clean baseline state for history arrays
+    history = load_history()
     existing_data = None
+    
     if os.path.exists(DATA_FILE):
         try:
             with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -147,9 +156,7 @@ def generate_geo_loop_data():
         payload["show_answer"] = is_evening
     else:
         print("Calling Gemini API for new trivia...", flush=True)
-        history = load_history()
         trivia = fetch_gemini_trivia(history)
-        
         generated_image_url = generate_eink_image(trivia.get("country", "GEO LOOP"))
         
         payload = {
@@ -163,15 +170,17 @@ def generate_geo_loop_data():
             "show_answer": is_evening
         }
         
-        # Save trivia into history for future fallbacks
-        history.setdefault("used_countries", []).append(trivia["country"])
-        history.setdefault("used_questions", []).append(trivia["question"])
-        history.setdefault("past_trivia", [])
-        
+        # Safely update lists to avoid repeating or duplicate items
+        if trivia["country"] not in history["used_countries"]:
+            history["used_countries"].append(trivia["country"])
+        if trivia["question"] not in history["used_questions"]:
+            history["used_questions"].append(trivia["question"])
+            
         if not any(item.get("question") == trivia["question"] for item in history["past_trivia"]):
             history["past_trivia"].append(trivia)
-            
-        save_history(history)
+
+    # Always ensure history and main file are committed securely in sync
+    save_history(history)
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
