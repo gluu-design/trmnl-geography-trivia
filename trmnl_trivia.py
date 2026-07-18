@@ -14,8 +14,6 @@ HISTORY_FILE = "history.json"
 DATA_FILE = "data.json"
 IMAGE_FILE = "image.png"
 
-GITHUB_PAGES_BASE_URL = "https://gluu-design.github.io/trmnl-geography-trivia"
-
 # Candidate models to try in order of preference
 FALLBACK_MODELS = [
     "gemini-2.5-flash-lite",
@@ -46,7 +44,7 @@ def generate_eink_image(text_label="GEO LOOP"):
 
     img.save(IMAGE_FILE)
     print(f"Generated 1-bit e-ink image saved to {IMAGE_FILE}", flush=True)
-    return f"{GITHUB_PAGES_BASE_URL}/{IMAGE_FILE}"
+    return IMAGE_FILE  # Returns clean relative path for global recipe compatibility
 
 def load_history():
     """Loads past questions/countries to avoid repetitions with solid fallbacks."""
@@ -56,7 +54,6 @@ def load_history():
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 content = json.load(f)
                 if isinstance(content, dict):
-                    # Ensure all arrays are structurally present
                     for key in default_structure:
                         content.setdefault(key, [])
                     return content
@@ -95,7 +92,6 @@ def fetch_gemini_trivia(history):
     }}
     """
 
-    # Try live AI models first
     for model_name in FALLBACK_MODELS:
         try:
             print(f"Attempting trivia generation with model: {model_name}...", flush=True)
@@ -109,16 +105,12 @@ def fetch_gemini_trivia(history):
         except Exception as e:
             print(f"Model {model_name} failed: {e}. Trying next model...", flush=True)
 
-    # FALLBACK: Random choice from history database
     print("All live AI models failed. Checking historical database fallback...", flush=True)
     past_items = history.get("past_trivia", [])
     if past_items:
         selected = random.choice(past_items)
-        print(f"Randomly re-using historical trivia item: {selected.get('question')}", flush=True)
         return selected
 
-    # Ultimate backup safety net
-    print("No history items found. Using default backup trivia.", flush=True)
     return {
         "question": "Which country has the most natural lakes in the world?",
         "answer": "Canada",
@@ -129,17 +121,14 @@ def fetch_gemini_trivia(history):
     }
 
 def generate_geo_loop_data():
-    # Force America/New_York (EDT) time check regardless of server timezone
     tz = zoneinfo.ZoneInfo("America/New_York")
     now = datetime.now(tz)
     
     today_str = now.strftime("%B %d, %Y")
-    is_evening = now.hour >= 18  # True starting at 6:00 PM EDT
+    is_evening = now.hour >= 18
     
     print(f"Starting GEO LOOP generation for {today_str}...", flush=True)
-    print(f"Current EDT Hour: {now.hour} | show_answer: {is_evening}", flush=True)
     
-    # Always establish clean baseline state for history arrays
     history = load_history()
     existing_data = None
     
@@ -151,13 +140,11 @@ def generate_geo_loop_data():
             print(f"Notice: Could not parse {DATA_FILE}: {e}", flush=True)
 
     if existing_data and existing_data.get("date") == today_str:
-        print(f"Using existing trivia for {today_str}. Updating show_answer={is_evening}", flush=True)
         payload = existing_data
         payload["show_answer"] = is_evening
     else:
-        print("Calling Gemini API for new trivia...", flush=True)
         trivia = fetch_gemini_trivia(history)
-        generated_image_url = generate_eink_image(trivia.get("country", "GEO LOOP"))
+        generated_image = generate_eink_image(trivia.get("country", "GEO LOOP"))
         
         payload = {
             "date": today_str,
@@ -166,11 +153,10 @@ def generate_geo_loop_data():
             "stat_category": trivia["stat_category"],
             "country": trivia["country"],
             "fun_fact": trivia["fun_fact"],
-            "image_url": generated_image_url,
+            "image_url": generated_image,
             "show_answer": is_evening
         }
         
-        # Safely update lists to avoid repeating or duplicate items
         if trivia["country"] not in history["used_countries"]:
             history["used_countries"].append(trivia["country"])
         if trivia["question"] not in history["used_questions"]:
@@ -179,7 +165,6 @@ def generate_geo_loop_data():
         if not any(item.get("question") == trivia["question"] for item in history["past_trivia"]):
             history["past_trivia"].append(trivia)
 
-    # Always ensure history and main file are committed securely in sync
     save_history(history)
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
