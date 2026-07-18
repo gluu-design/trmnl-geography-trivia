@@ -44,7 +44,9 @@ def generate_eink_image(text_label="GEO LOOP"):
 
     img.save(IMAGE_FILE)
     print(f"Generated 1-bit e-ink image saved to {IMAGE_FILE}", flush=True)
-    return IMAGE_FILE  # Returns clean relative path for global recipe compatibility
+    
+    # COMPLIANT FIX: Return only the relative path to keep the recipe asset-agnostic
+    return IMAGE_FILE
 
 def load_history():
     """Loads past questions/countries to avoid repetitions with solid fallbacks."""
