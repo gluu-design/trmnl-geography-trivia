@@ -1,6 +1,7 @@
 {
   "used_countries": [
-    "Djibouti"
+    "Djibouti",
+    "Venezuela"
   ],
   "used_questions": [],
   "past_trivia": [
@@ -10,6 +11,13 @@
       "country": "Djibouti",
       "stat_category": "Landforms",
       "fun_fact": "Lake Assal is the third lowest point on Earth and is the world's largest salt reserve, making its water nearly ten times saltier than the ocean."
+    },
+    {
+      "question": "Which country is home to the world's highest uninterrupted waterfall, Angel Falls?",
+      "answer": "Venezuela",
+      "country": "Venezuela",
+      "stat_category": "Landforms",
+      "fun_fact": "Angel Falls stands at 979 meters tall, making it nearly 20 times taller than Niagara Falls."
     }
   ]
 }
