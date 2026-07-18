@@ -26,23 +26,22 @@ FALLBACK_MODELS = [
 ]
 
 def generate_eink_image(text_label="GEO LOOP"):
-    """Generates a 1-bit monochrome black & white image for TRMNL."""
-    width, height = 200, 200
+    """Generates a 1-bit monochrome 100x100 image for TRMNL."""
+    width, height = 100, 100
     img = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(img)
 
-    # Simplified drawing to avoid clutter
-    draw.rectangle([10, 10, width - 10, height - 10], outline=0, width=4)
-    
-    # Simple Globe Illustration
-    center_x, center_y, radius = width // 2, height // 2, 60
-    draw.ellipse([center_x - radius, center_y - radius, center_x + radius, center_y + radius], outline=0, width=2)
-    draw.line([center_x, center_y - radius, center_x, center_y + radius], fill=0, width=2)
-    draw.line([center_x - radius, center_y, center_x + radius, center_y], fill=0, width=2)
+    # Scaled down border
+    draw.rectangle([5, 5, width - 5, height - 5], outline=0, width=2)
+
+    # Simplified graphic
+    center_x, center_y = width // 2, height // 2
+    draw.ellipse([center_x - 25, center_y - 15, center_x + 25, center_y + 15], outline=0, width=2)
+    draw.line([center_x - 15, center_y + 5, center_x + 15, center_y + 5], fill=0, width=1)
+    draw.line([center_x - 10, center_y + 10, center_x + 10, center_y + 10], fill=0, width=1)
 
     img.save(IMAGE_FILE)
-    print(f"Generated 1-bit e-ink image saved to {IMAGE_FILE}", flush=True)
-    
+    print(f"Generated 100x100 e-ink image saved to {IMAGE_FILE}", flush=True)
     return IMAGE_FILE
 
 def load_history():
