@@ -1,9 +1,8 @@
 {
-  "date": "July 18, 2026",
-  "question": "Which country is home to the world's highest uninterrupted waterfall, Angel Falls?",
-  "answer": "Venezuela",
+  "date": "August 22, 2026",
+  "question": "Which country has the most natural lakes?",
+  "answer": "Canada",
   "stat_category": "Landforms",
-  "fun_fact": "Angel Falls stands at 979 meters tall, making it nearly 20 times taller than Niagara Falls.",
-  "image_url": "image_v2.png",
-  "show_answer": true
+  "fun_fact": "Canada has over 60% of Earth's lakes.",
+  "show_answer": false
 }

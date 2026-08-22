@@ -1,7 +1,8 @@
 {
   "used_countries": [
     "Djibouti",
-    "Venezuela"
+    "Venezuela",
+    "Canada"
   ],
   "used_questions": [],
   "past_trivia": [
@@ -18,6 +19,13 @@
       "country": "Venezuela",
       "stat_category": "Landforms",
       "fun_fact": "Angel Falls stands at 979 meters tall, making it nearly 20 times taller than Niagara Falls."
+    },
+    {
+      "question": "Which country has the most natural lakes?",
+      "answer": "Canada",
+      "stat_category": "Landforms",
+      "fun_fact": "Canada has over 60% of Earth's lakes.",
+      "country": "Canada"
     }
   ]
 }
