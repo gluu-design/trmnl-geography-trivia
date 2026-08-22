@@ -18,14 +18,20 @@ FALLBACK_MODELS = [
 ]
 
 def load_history():
-    default_structure = {"used_countries": [], "used_questions": [], "past_trivia": []}
+    # Added 'todays_trivia' and 'last_run_date' to track daily state
+    default_structure = {
+        "used_countries": [], 
+        "past_trivia": [], 
+        "todays_trivia": None, 
+        "last_run_date": ""
+    }
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 content = json.load(f)
                 if isinstance(content, dict):
                     for key in default_structure:
-                        content.setdefault(key, [])
+                        content.setdefault(key, default_structure[key])
                     return content
         except Exception:
             pass
@@ -44,7 +50,6 @@ def fetch_gemini_trivia(history):
     3. 'fun_fact' must be under 180 characters.
     """
     
-    # Define a strict schema to guarantee a dictionary is returned with all needed keys
     trivia_schema = types.Schema(
         type=types.Type.OBJECT,
         properties={
@@ -69,7 +74,6 @@ def fetch_gemini_trivia(history):
                 )
             )
             
-            # Robust parsing: catch edge cases where the LLM still wraps it in a list
             result = json.loads(response.text)
             if isinstance(result, list) and len(result) > 0:
                 result = result[0]
@@ -80,7 +84,6 @@ def fetch_gemini_trivia(history):
             print(f"Model {model_name} failed: {e}")
             continue
             
-    # Fallback if all models fail
     return {
         "question": "Which country has the most natural lakes?", 
         "answer": "Canada", 
@@ -93,11 +96,30 @@ def generate_geo_loop_data():
     tz = zoneinfo.ZoneInfo("America/New_York")
     now = datetime.now(tz)
     today_str = now.strftime("%B %d, %Y")
+    
+    # 18 = 6:00 PM Eastern Time. Change this number if you want the reveal earlier/later.
     is_evening = now.hour >= 18
     
     history = load_history()
-    trivia = fetch_gemini_trivia(history)
     
+    # DAILY CACHE CHECK: If we already have a question for today, reuse it!
+    if history.get("last_run_date") == today_str and history.get("todays_trivia"):
+        trivia = history["todays_trivia"]
+        print("Loaded today's existing trivia. Generating payload...")
+    else:
+        # It's a new day! Fetch a new question.
+        print("New day detected. Fetching new trivia from Gemini...")
+        trivia = fetch_gemini_trivia(history)
+        
+        # Save to history immediately
+        if trivia.get("country") and trivia["country"] not in history["used_countries"]:
+            history["used_countries"].append(trivia["country"])
+        history["past_trivia"].append(trivia)
+        history["todays_trivia"] = trivia
+        history["last_run_date"] = today_str
+        save_history(history)
+    
+    # Generate the payload that TRMNL will read
     payload = {
         "date": today_str,
         "question": trivia["question"],
@@ -107,14 +129,10 @@ def generate_geo_loop_data():
         "show_answer": is_evening
     }
     
-    if trivia.get("country") and trivia["country"] not in history["used_countries"]:
-        history["used_countries"].append(trivia["country"])
-    
-    history["past_trivia"].append(trivia)
-    save_history(history)
-
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
+        
+    print(f"Payload saved! Show Answer is set to: {is_evening}")
 
 if __name__ == "__main__":
     generate_geo_loop_data()
