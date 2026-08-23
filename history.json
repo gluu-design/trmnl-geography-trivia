@@ -1,31 +1,22 @@
 {
   "used_countries": [
-    "Djibouti",
-    "Venezuela",
     "Canada"
   ],
-  "used_questions": [],
   "past_trivia": [
-    {
-      "question": "Which desert is home to the lowest point in Africa, located at Lake Assal, which sits 155 meters below sea level?",
-      "answer": "Danakil Desert",
-      "country": "Djibouti",
-      "stat_category": "Landforms",
-      "fun_fact": "Lake Assal is the third lowest point on Earth and is the world's largest salt reserve, making its water nearly ten times saltier than the ocean."
-    },
-    {
-      "question": "Which country is home to the world's highest uninterrupted waterfall, Angel Falls?",
-      "answer": "Venezuela",
-      "country": "Venezuela",
-      "stat_category": "Landforms",
-      "fun_fact": "Angel Falls stands at 979 meters tall, making it nearly 20 times taller than Niagara Falls."
-    },
     {
       "question": "Which country has the most natural lakes?",
       "answer": "Canada",
       "stat_category": "Landforms",
       "fun_fact": "Canada has over 60% of Earth's lakes.",
       "country": "Canada"
-    },
-    "last_run_date": "August 23, 2026"
+    }
+  ],
+  "todays_trivia": {
+    "question": "Which country has the most natural lakes?",
+    "answer": "Canada",
+    "stat_category": "Landforms",
+    "fun_fact": "Canada has over 60% of Earth's lakes.",
+    "country": "Canada"
+  },
+  "last_run_date": "August 23, 2026"
 }
