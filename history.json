@@ -33,6 +33,13 @@
       "stat_category": "Landforms",
       "fun_fact": "Canada has over 60% of Earth's lakes.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country has the most natural lakes?",
+      "answer": "Canada",
+      "stat_category": "Landforms",
+      "fun_fact": "Canada has over 60% of Earth's lakes.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
@@ -42,5 +49,5 @@
     "fun_fact": "Canada has over 60% of Earth's lakes.",
     "country": "Canada"
   },
-  "last_run_date": "August 22, 2026"
+  "last_run_date": "August 23, 2026"
 }
