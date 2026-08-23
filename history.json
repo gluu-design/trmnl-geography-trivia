@@ -1,6 +1,7 @@
 {
   "used_countries": [
-    "Canada"
+    "Canada",
+    "Russia"
   ],
   "past_trivia": [
     {
@@ -16,14 +17,21 @@
       "stat_category": "Landforms",
       "fun_fact": "Canada has over 60% of Earth's lakes.",
       "country": "Canada"
+    },
+    {
+      "question": "Holding roughly 20% of the Earth's unfrozen surface fresh water, what Siberian body of water is the deepest lake in the world?",
+      "answer": "Lake Baikal",
+      "stat_category": "Lakes",
+      "fun_fact": "Lake Baikal is also considered the world's oldest lake, estimated to be between 25 and 30 million years old.",
+      "country": "Russia"
     }
   ],
   "todays_trivia": {
-    "question": "Which country has the most natural lakes?",
-    "answer": "Canada",
-    "stat_category": "Landforms",
-    "fun_fact": "Canada has over 60% of Earth's lakes.",
-    "country": "Canada"
+    "question": "Holding roughly 20% of the Earth's unfrozen surface fresh water, what Siberian body of water is the deepest lake in the world?",
+    "answer": "Lake Baikal",
+    "stat_category": "Lakes",
+    "fun_fact": "Lake Baikal is also considered the world's oldest lake, estimated to be between 25 and 30 million years old.",
+    "country": "Russia"
   },
-  "last_run_date": "August 22, 2026"
+  "last_run_date": "August 23, 2026"
 }
