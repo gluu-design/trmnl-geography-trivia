@@ -1,8 +1,8 @@
 {
-  "date": "August 25, 2026",
-  "question": "Which desert located primarily in northern Chile is widely recognized as the driest non-polar desert on Earth?",
-  "answer": "Atacama Desert",
-  "stat_category": "Deserts",
-  "fun_fact": "NASA uses the Atacama Desert to test instruments for Mars missions because its extreme dryness resembles Martian conditions.",
-  "show_answer": true
+  "date": "August 26, 2026",
+  "question": "Due to the Earth's equatorial bulge, which Ecuadorian volcano's summit is the farthest point from the center of the Earth?",
+  "answer": "Mount Chimborazo",
+  "stat_category": "Landforms",
+  "fun_fact": "Because Earth bulges at the equator, Chimborazo's summit is over 6,800 feet farther from Earth's center than Everest, making it the closest point on Earth to the Moon.",
+  "show_answer": false
 }
