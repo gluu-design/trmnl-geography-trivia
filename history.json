@@ -4,7 +4,8 @@
     "Russia",
     "Bolivia",
     "Chile",
-    "Ecuador"
+    "Ecuador",
+    "Lesotho"
   ],
   "past_trivia": [
     {
@@ -48,14 +49,21 @@
       "stat_category": "Landforms",
       "fun_fact": "Because Earth bulges at the equator, Chimborazo's summit is over 6,800 feet farther from Earth's center than Everest, making it the closest point on Earth to the Moon.",
       "country": "Ecuador"
+    },
+    {
+      "question": "Which African nation is the only independent country in the world situated entirely above 1,000 meters (3,281 feet) in elevation?",
+      "answer": "Lesotho",
+      "stat_category": "Elevation",
+      "fun_fact": "Known as the 'Kingdom of the Sky,' Lesotho is the only nation on Earth to lie entirely above 1,000 meters and contains Africa's highest pub at 2,874 meters.",
+      "country": "Lesotho"
     }
   ],
   "todays_trivia": {
-    "question": "Due to the Earth's equatorial bulge, which Ecuadorian volcano's summit is the farthest point from the center of the Earth?",
-    "answer": "Mount Chimborazo",
-    "stat_category": "Landforms",
-    "fun_fact": "Because Earth bulges at the equator, Chimborazo's summit is over 6,800 feet farther from Earth's center than Everest, making it the closest point on Earth to the Moon.",
-    "country": "Ecuador"
+    "question": "Which African nation is the only independent country in the world situated entirely above 1,000 meters (3,281 feet) in elevation?",
+    "answer": "Lesotho",
+    "stat_category": "Elevation",
+    "fun_fact": "Known as the 'Kingdom of the Sky,' Lesotho is the only nation on Earth to lie entirely above 1,000 meters and contains Africa's highest pub at 2,874 meters.",
+    "country": "Lesotho"
   },
-  "last_run_date": "August 26, 2026"
+  "last_run_date": "August 27, 2026"
 }
