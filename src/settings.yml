@@ -39,5 +39,5 @@ custom_fields:
   github_url: https://github.com/gluu-design
   learn_more_url: https://gluu-design.github.io/trmnl-geography-trivia
 name: Geo Loop
-description: ''
+description: Gradual daily geography trivia
 refresh_interval: 15
