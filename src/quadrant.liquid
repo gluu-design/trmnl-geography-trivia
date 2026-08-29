@@ -1,0 +1,23 @@
+{% assign d_question = question | default: data.question | default: payload.question | default: "Which country has the most natural lakes?" %}
+{% assign d_category = stat_category | default: data.stat_category | default: payload.stat_category | default: "Landforms" %}
+{% assign d_answer = answer | default: data.answer | default: payload.answer | default: "Canada" %}
+{% assign raw_show = show_answer | default: data.show_answer | default: payload.show_answer %}
+{% if raw_show == true or raw_show == 'true' or raw_show == 'True' %}{% assign d_show = true %}{% else %}{% assign d_show = false %}{% endif %}
+
+<div class="layout layout--col layout--center">
+  
+  <!-- Shrunk font to text--small and allowed up to 3 lines -->
+  <span class="title text--small text--center" data-clamp="3">{{ d_question }}</span>
+  
+  <!-- Reduced gap to make room for a longer question -->
+  <div class="gap--small"></div>
+  
+  <span class="value value--small text--center">
+    {% if d_show %} {{ d_answer }} {% else %} LOCKED {% endif %}
+  </span>
+  
+  <div class="gap--small"></div>
+  
+  <span class="title text--xsmall text--gray text--uppercase text--center">CAT: {{ d_category }}</span>
+  
+</div>
