@@ -1,8 +1,8 @@
 {
-  "date": "August 28, 2026",
-  "question": "Which country is home to Sossusvlei, a salt and clay pan surrounded by high red dunes located in the world's oldest desert?",
-  "answer": "Namibia",
+  "date": "August 29, 2026",
+  "question": "Which geological depression in Ethiopia is widely considered one of the hottest, driest, and lowest places on Earth?",
+  "answer": "Danakil Depression",
   "stat_category": "Landforms",
-  "fun_fact": "Sossusvlei is part of the Namib Desert, which has existed for at least 55 million years, making it the oldest desert in the world.",
-  "show_answer": true
+  "fun_fact": "Its colorful hydrothermal pools are created by sulfur, salt deposits, and acid-loving extremophile microbes thriving in extreme heat.",
+  "show_answer": false
 }
