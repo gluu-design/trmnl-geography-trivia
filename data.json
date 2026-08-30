@@ -1,8 +1,8 @@
 {
-  "date": "August 29, 2026",
-  "question": "Which geological depression in Ethiopia is widely considered one of the hottest, driest, and lowest places on Earth?",
-  "answer": "Danakil Depression",
+  "date": "August 30, 2026",
+  "question": "Which Icelandic volcano erupted in 2010, creating an ash cloud that grounded over 100,000 flights across Europe?",
+  "answer": "Eyjafjallajökull",
   "stat_category": "Landforms",
-  "fun_fact": "Its colorful hydrothermal pools are created by sulfur, salt deposits, and acid-loving extremophile microbes thriving in extreme heat.",
-  "show_answer": true
+  "fun_fact": "The 2010 eruption affected over 10 million passengers and was the largest disruption to air travel since World War II.",
+  "show_answer": false
 }
