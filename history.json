@@ -8,7 +8,8 @@
     "Lesotho",
     "Namibia",
     "Ethiopia",
-    "Iceland"
+    "Iceland",
+    "Jordan"
   ],
   "past_trivia": [
     {
@@ -80,14 +81,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The 2010 eruption affected over 10 million passengers and was the largest disruption to air travel since World War II.",
       "country": "Iceland"
+    },
+    {
+      "question": "Bordered by Jordan, Israel, and the West Bank, what lake's surface sits at the lowest land-based elevation on Earth?",
+      "answer": "Dead Sea",
+      "stat_category": "Elevation",
+      "fun_fact": "At around 430 meters below sea level, the Dead Sea is nearly ten times saltier than the ocean, making swimming feel like floating effortlessly.",
+      "country": "Jordan"
     }
   ],
   "todays_trivia": {
-    "question": "Which Icelandic volcano erupted in 2010, creating an ash cloud that grounded over 100,000 flights across Europe?",
-    "answer": "Eyjafjallajökull",
-    "stat_category": "Landforms",
-    "fun_fact": "The 2010 eruption affected over 10 million passengers and was the largest disruption to air travel since World War II.",
-    "country": "Iceland"
+    "question": "Bordered by Jordan, Israel, and the West Bank, what lake's surface sits at the lowest land-based elevation on Earth?",
+    "answer": "Dead Sea",
+    "stat_category": "Elevation",
+    "fun_fact": "At around 430 meters below sea level, the Dead Sea is nearly ten times saltier than the ocean, making swimming feel like floating effortlessly.",
+    "country": "Jordan"
   },
-  "last_run_date": "August 30, 2026"
+  "last_run_date": "August 31, 2026"
 }
