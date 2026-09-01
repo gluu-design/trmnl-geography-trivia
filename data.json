@@ -1,8 +1,8 @@
 {
-  "date": "August 31, 2026",
-  "question": "Bordered by Jordan, Israel, and the West Bank, what lake's surface sits at the lowest land-based elevation on Earth?",
-  "answer": "Dead Sea",
-  "stat_category": "Elevation",
-  "fun_fact": "At around 430 meters below sea level, the Dead Sea is nearly ten times saltier than the ocean, making swimming feel like floating effortlessly.",
-  "show_answer": true
+  "date": "September 01, 2026",
+  "question": "Which village in the Meghalaya state of India is officially recognized as the wettest place on Earth, receiving an average annual rainfall of over 11,800 millimeters?",
+  "answer": "Mawsynram",
+  "stat_category": "Climate Statistics",
+  "fun_fact": "To work outdoors during heavy monsoons, locals in Mawsynram wear full-body, turtle-shell-shaped umbrellas called 'knups' made from bamboo and banana leaves.",
+  "show_answer": false
 }

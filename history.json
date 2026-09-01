@@ -9,7 +9,8 @@
     "Namibia",
     "Ethiopia",
     "Iceland",
-    "Jordan"
+    "Jordan",
+    "India"
   ],
   "past_trivia": [
     {
@@ -88,14 +89,21 @@
       "stat_category": "Elevation",
       "fun_fact": "At around 430 meters below sea level, the Dead Sea is nearly ten times saltier than the ocean, making swimming feel like floating effortlessly.",
       "country": "Jordan"
+    },
+    {
+      "question": "Which village in the Meghalaya state of India is officially recognized as the wettest place on Earth, receiving an average annual rainfall of over 11,800 millimeters?",
+      "answer": "Mawsynram",
+      "stat_category": "Climate Statistics",
+      "fun_fact": "To work outdoors during heavy monsoons, locals in Mawsynram wear full-body, turtle-shell-shaped umbrellas called 'knups' made from bamboo and banana leaves.",
+      "country": "India"
     }
   ],
   "todays_trivia": {
-    "question": "Bordered by Jordan, Israel, and the West Bank, what lake's surface sits at the lowest land-based elevation on Earth?",
-    "answer": "Dead Sea",
-    "stat_category": "Elevation",
-    "fun_fact": "At around 430 meters below sea level, the Dead Sea is nearly ten times saltier than the ocean, making swimming feel like floating effortlessly.",
-    "country": "Jordan"
+    "question": "Which village in the Meghalaya state of India is officially recognized as the wettest place on Earth, receiving an average annual rainfall of over 11,800 millimeters?",
+    "answer": "Mawsynram",
+    "stat_category": "Climate Statistics",
+    "fun_fact": "To work outdoors during heavy monsoons, locals in Mawsynram wear full-body, turtle-shell-shaped umbrellas called 'knups' made from bamboo and banana leaves.",
+    "country": "India"
   },
-  "last_run_date": "August 31, 2026"
+  "last_run_date": "September 01, 2026"
 }
