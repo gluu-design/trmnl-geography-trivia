@@ -96,14 +96,21 @@
       "stat_category": "Climate Statistics",
       "fun_fact": "To work outdoors during heavy monsoons, locals in Mawsynram wear full-body, turtle-shell-shaped umbrellas called 'knups' made from bamboo and banana leaves.",
       "country": "India"
+    },
+    {
+      "question": "Which country has the most natural lakes?",
+      "answer": "Canada",
+      "stat_category": "Landforms",
+      "fun_fact": "Canada has over 60% of Earth's lakes.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which village in the Meghalaya state of India is officially recognized as the wettest place on Earth, receiving an average annual rainfall of over 11,800 millimeters?",
-    "answer": "Mawsynram",
-    "stat_category": "Climate Statistics",
-    "fun_fact": "To work outdoors during heavy monsoons, locals in Mawsynram wear full-body, turtle-shell-shaped umbrellas called 'knups' made from bamboo and banana leaves.",
-    "country": "India"
+    "question": "Which country has the most natural lakes?",
+    "answer": "Canada",
+    "stat_category": "Landforms",
+    "fun_fact": "Canada has over 60% of Earth's lakes.",
+    "country": "Canada"
   },
-  "last_run_date": "September 01, 2026"
+  "last_run_date": "September 02, 2026"
 }
