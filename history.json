@@ -10,7 +10,8 @@
     "Ethiopia",
     "Iceland",
     "Jordan",
-    "India"
+    "India",
+    "Venezuela"
   ],
   "past_trivia": [
     {
@@ -103,14 +104,21 @@
       "stat_category": "Landforms",
       "fun_fact": "Canada has over 60% of Earth's lakes.",
       "country": "Canada"
+    },
+    {
+      "question": "What is the name of the world's highest uninterrupted waterfall, dropping 979 meters in the Guiana Highlands of Venezuela?",
+      "answer": "Angel Falls",
+      "stat_category": "Landforms",
+      "fun_fact": "The waterfall is so tall that much of the water evaporates or blows away as a fine mist before ever reaching the bottom.",
+      "country": "Venezuela"
     }
   ],
   "todays_trivia": {
-    "question": "Which country has the most natural lakes?",
-    "answer": "Canada",
+    "question": "What is the name of the world's highest uninterrupted waterfall, dropping 979 meters in the Guiana Highlands of Venezuela?",
+    "answer": "Angel Falls",
     "stat_category": "Landforms",
-    "fun_fact": "Canada has over 60% of Earth's lakes.",
-    "country": "Canada"
+    "fun_fact": "The waterfall is so tall that much of the water evaporates or blows away as a fine mist before ever reaching the bottom.",
+    "country": "Venezuela"
   },
-  "last_run_date": "September 02, 2026"
+  "last_run_date": "September 03, 2026"
 }

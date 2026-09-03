@@ -1,8 +1,8 @@
 {
-  "date": "September 02, 2026",
-  "question": "Which country has the most natural lakes?",
-  "answer": "Canada",
+  "date": "September 03, 2026",
+  "question": "What is the name of the world's highest uninterrupted waterfall, dropping 979 meters in the Guiana Highlands of Venezuela?",
+  "answer": "Angel Falls",
   "stat_category": "Landforms",
-  "fun_fact": "Canada has over 60% of Earth's lakes.",
-  "show_answer": true
+  "fun_fact": "The waterfall is so tall that much of the water evaporates or blows away as a fine mist before ever reaching the bottom.",
+  "show_answer": false
 }
