@@ -12,7 +12,8 @@
     "Jordan",
     "India",
     "Venezuela",
-    "Vietnam"
+    "Vietnam",
+    "Suriname"
   ],
   "past_trivia": [
     {
@@ -119,14 +120,21 @@
       "stat_category": "Landforms",
       "fun_fact": "Son Doong Cave is so large that it has its own localized weather system, complete with internal clouds and mist.",
       "country": "Vietnam"
+    },
+    {
+      "question": "Which South American nation has the highest percentage of forest cover in the world, with over 92% of its land area blanketed by rainforest?",
+      "answer": "Suriname",
+      "stat_category": "Forest Cover",
+      "fun_fact": "Suriname's Central Suriname Nature Reserve is a UNESCO World Heritage site that protects nearly 4 million acres of pristine primary tropical rainforest.",
+      "country": "Suriname"
     }
   ],
   "todays_trivia": {
-    "question": "What is the name of the world's largest natural cave by volume, located in Vietnam's Phong Nha-Kẻ Bàng National Park?",
-    "answer": "Hang Sơn Đoòng",
-    "stat_category": "Landforms",
-    "fun_fact": "Son Doong Cave is so large that it has its own localized weather system, complete with internal clouds and mist.",
-    "country": "Vietnam"
+    "question": "Which South American nation has the highest percentage of forest cover in the world, with over 92% of its land area blanketed by rainforest?",
+    "answer": "Suriname",
+    "stat_category": "Forest Cover",
+    "fun_fact": "Suriname's Central Suriname Nature Reserve is a UNESCO World Heritage site that protects nearly 4 million acres of pristine primary tropical rainforest.",
+    "country": "Suriname"
   },
-  "last_run_date": "September 04, 2026"
+  "last_run_date": "September 05, 2026"
 }
