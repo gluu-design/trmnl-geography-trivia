@@ -1,8 +1,8 @@
 {
-  "date": "September 05, 2026",
-  "question": "Which South American nation has the highest percentage of forest cover in the world, with over 92% of its land area blanketed by rainforest?",
-  "answer": "Suriname",
-  "stat_category": "Forest Cover",
-  "fun_fact": "Suriname's Central Suriname Nature Reserve is a UNESCO World Heritage site that protects nearly 4 million acres of pristine primary tropical rainforest.",
-  "show_answer": true
+  "date": "September 06, 2026",
+  "question": "What is the lowest natural point in Australia, sitting at approximately 15 meters (49 feet) below sea level?",
+  "answer": "Lake Eyre",
+  "stat_category": "Elevation",
+  "fun_fact": "When fully filled, which occurs only around four times a century, Lake Eyre becomes the largest lake in Australia.",
+  "show_answer": false
 }
