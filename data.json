@@ -1,8 +1,8 @@
 {
-  "date": "September 06, 2026",
-  "question": "What is the lowest natural point in Australia, sitting at approximately 15 meters (49 feet) below sea level?",
-  "answer": "Lake Eyre",
-  "stat_category": "Elevation",
-  "fun_fact": "When fully filled, which occurs only around four times a century, Lake Eyre becomes the largest lake in Australia.",
-  "show_answer": true
+  "date": "September 07, 2026",
+  "question": "Which Indonesian volcano, located in the Sunda Strait, produced the loudest sound in recorded history during its devastating 1883 eruption?",
+  "answer": "Krakatoa",
+  "stat_category": "Volcanoes",
+  "fun_fact": "The 1883 eruption of Krakatoa released pressure waves that traveled around the Earth four times and ruptured the eardrums of people 40 miles away.",
+  "show_answer": false
 }
