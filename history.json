@@ -15,7 +15,8 @@
     "Vietnam",
     "Suriname",
     "Australia",
-    "Indonesia"
+    "Indonesia",
+    "Mauritania"
   ],
   "past_trivia": [
     {
@@ -143,14 +144,21 @@
       "stat_category": "Volcanoes",
       "fun_fact": "The 1883 eruption of Krakatoa released pressure waves that traveled around the Earth four times and ruptured the eardrums of people 40 miles away.",
       "country": "Indonesia"
+    },
+    {
+      "question": "What deeply eroded geological dome, visible from space and resembling a giant bullseye, is located in the Sahara Desert of Mauritania?",
+      "answer": "Richat Structure",
+      "stat_category": "Geological Landmarks",
+      "fun_fact": "Spanning nearly 40 kilometers across, the Eye of the Sahara was used as a key visual landmark by early Gemini astronauts.",
+      "country": "Mauritania"
     }
   ],
   "todays_trivia": {
-    "question": "Which Indonesian volcano, located in the Sunda Strait, produced the loudest sound in recorded history during its devastating 1883 eruption?",
-    "answer": "Krakatoa",
-    "stat_category": "Volcanoes",
-    "fun_fact": "The 1883 eruption of Krakatoa released pressure waves that traveled around the Earth four times and ruptured the eardrums of people 40 miles away.",
-    "country": "Indonesia"
+    "question": "What deeply eroded geological dome, visible from space and resembling a giant bullseye, is located in the Sahara Desert of Mauritania?",
+    "answer": "Richat Structure",
+    "stat_category": "Geological Landmarks",
+    "fun_fact": "Spanning nearly 40 kilometers across, the Eye of the Sahara was used as a key visual landmark by early Gemini astronauts.",
+    "country": "Mauritania"
   },
-  "last_run_date": "September 07, 2026"
+  "last_run_date": "September 08, 2026"
 }
