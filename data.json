@@ -1,8 +1,8 @@
 {
-  "date": "September 08, 2026",
-  "question": "What deeply eroded geological dome, visible from space and resembling a giant bullseye, is located in the Sahara Desert of Mauritania?",
-  "answer": "Richat Structure",
-  "stat_category": "Geological Landmarks",
-  "fun_fact": "Spanning nearly 40 kilometers across, the Eye of the Sahara was used as a key visual landmark by early Gemini astronauts.",
-  "show_answer": true
+  "date": "September 09, 2026",
+  "question": "What feature in Tanzania is recognized as the world's largest inactive, intact, and unfilled volcanic caldera?",
+  "answer": "Ngorongoro Crater",
+  "stat_category": "Landforms",
+  "fun_fact": "Formed around 2.5 million years ago, the crater covers over 100 square miles and is home to around 25,000 large animals.",
+  "show_answer": false
 }
