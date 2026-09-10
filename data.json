@@ -1,8 +1,8 @@
 {
-  "date": "September 09, 2026",
-  "question": "What feature in Tanzania is recognized as the world's largest inactive, intact, and unfilled volcanic caldera?",
-  "answer": "Ngorongoro Crater",
+  "date": "September 10, 2026",
+  "question": "Located in northeastern Brazil, which national park features vast white sand dunes that fill with thousands of turquoise freshwater lagoons during the rainy season?",
+  "answer": "Lençóis Maranhenses National Park",
   "stat_category": "Landforms",
-  "fun_fact": "Formed around 2.5 million years ago, the crater covers over 100 square miles and is home to around 25,000 large animals.",
-  "show_answer": true
+  "fun_fact": "Despite looking like a desert, the park receives around 47 inches of rain annually, forming temporary lagoons that are home to fish.",
+  "show_answer": false
 }
