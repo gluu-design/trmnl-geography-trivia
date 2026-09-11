@@ -18,7 +18,8 @@
     "Indonesia",
     "Mauritania",
     "Tanzania",
-    "Brazil"
+    "Brazil",
+    "Azerbaijan"
   ],
   "past_trivia": [
     {
@@ -167,14 +168,21 @@
       "stat_category": "Landforms",
       "fun_fact": "Despite looking like a desert, the park receives around 47 inches of rain annually, forming temporary lagoons that are home to fish.",
       "country": "Brazil"
+    },
+    {
+      "question": "Which South Caucasus nation is home to nearly half of all the world's mud volcanoes?",
+      "answer": "Azerbaijan",
+      "stat_category": "Landforms",
+      "fun_fact": "Azerbaijan has over 300 mud volcanoes, which periodically erupt with deep underground fires and huge methane gas flames.",
+      "country": "Azerbaijan"
     }
   ],
   "todays_trivia": {
-    "question": "Located in northeastern Brazil, which national park features vast white sand dunes that fill with thousands of turquoise freshwater lagoons during the rainy season?",
-    "answer": "Lençóis Maranhenses National Park",
+    "question": "Which South Caucasus nation is home to nearly half of all the world's mud volcanoes?",
+    "answer": "Azerbaijan",
     "stat_category": "Landforms",
-    "fun_fact": "Despite looking like a desert, the park receives around 47 inches of rain annually, forming temporary lagoons that are home to fish.",
-    "country": "Brazil"
+    "fun_fact": "Azerbaijan has over 300 mud volcanoes, which periodically erupt with deep underground fires and huge methane gas flames.",
+    "country": "Azerbaijan"
   },
-  "last_run_date": "September 10, 2026"
+  "last_run_date": "September 11, 2026"
 }
