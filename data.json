@@ -1,8 +1,8 @@
 {
-  "date": "September 11, 2026",
-  "question": "Which South Caucasus nation is home to nearly half of all the world's mud volcanoes?",
-  "answer": "Azerbaijan",
-  "stat_category": "Landforms",
-  "fun_fact": "Azerbaijan has over 300 mud volcanoes, which periodically erupt with deep underground fires and huge methane gas flames.",
-  "show_answer": true
+  "date": "September 12, 2026",
+  "question": "With over 100,000 kilometers of coastline including its iconic fjords and islands, which European nation possesses the second-longest total coastline in the world?",
+  "answer": "Norway",
+  "stat_category": "Coastline Statistics",
+  "fun_fact": "Norway's mainland coastline is around 2,519 kilometers, but adding all its fjords, inlets, and islands expands it to over 100,000 kilometers!",
+  "show_answer": false
 }
