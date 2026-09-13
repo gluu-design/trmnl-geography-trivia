@@ -20,7 +20,8 @@
     "Tanzania",
     "Brazil",
     "Azerbaijan",
-    "Norway"
+    "Norway",
+    "Madagascar"
   ],
   "past_trivia": [
     {
@@ -183,14 +184,21 @@
       "stat_category": "Coastline Statistics",
       "fun_fact": "Norway's mainland coastline is around 2,519 kilometers, but adding all its fjords, inlets, and islands expands it to over 100,000 kilometers!",
       "country": "Norway"
+    },
+    {
+      "question": "Which island nation is home to the Tsingy de Bemaraha, a UNESCO World Heritage site known for its vast forest of razor-sharp limestone needles?",
+      "answer": "Madagascar",
+      "stat_category": "Landforms",
+      "fun_fact": "The word \"Tsingy\" comes from a local Malagasy word meaning \"where one cannot walk barefoot,\" referring to the razor-sharp rock edges.",
+      "country": "Madagascar"
     }
   ],
   "todays_trivia": {
-    "question": "With over 100,000 kilometers of coastline including its iconic fjords and islands, which European nation possesses the second-longest total coastline in the world?",
-    "answer": "Norway",
-    "stat_category": "Coastline Statistics",
-    "fun_fact": "Norway's mainland coastline is around 2,519 kilometers, but adding all its fjords, inlets, and islands expands it to over 100,000 kilometers!",
-    "country": "Norway"
+    "question": "Which island nation is home to the Tsingy de Bemaraha, a UNESCO World Heritage site known for its vast forest of razor-sharp limestone needles?",
+    "answer": "Madagascar",
+    "stat_category": "Landforms",
+    "fun_fact": "The word \"Tsingy\" comes from a local Malagasy word meaning \"where one cannot walk barefoot,\" referring to the razor-sharp rock edges.",
+    "country": "Madagascar"
   },
-  "last_run_date": "September 12, 2026"
+  "last_run_date": "September 13, 2026"
 }
