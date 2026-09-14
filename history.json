@@ -21,7 +21,8 @@
     "Brazil",
     "Azerbaijan",
     "Norway",
-    "Madagascar"
+    "Madagascar",
+    "Kenya"
   ],
   "past_trivia": [
     {
@@ -191,14 +192,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The word \"Tsingy\" comes from a local Malagasy word meaning \"where one cannot walk barefoot,\" referring to the razor-sharp rock edges.",
       "country": "Madagascar"
+    },
+    {
+      "question": "Which body of water in northern Kenya holds the record for being the world's largest permanent desert lake?",
+      "answer": "Lake Turkana",
+      "stat_category": "Landforms",
+      "fun_fact": "Also called the Jade Sea for its unique color, Lake Turkana is home to the world's largest population of Nile crocodiles.",
+      "country": "Kenya"
     }
   ],
   "todays_trivia": {
-    "question": "Which island nation is home to the Tsingy de Bemaraha, a UNESCO World Heritage site known for its vast forest of razor-sharp limestone needles?",
-    "answer": "Madagascar",
+    "question": "Which body of water in northern Kenya holds the record for being the world's largest permanent desert lake?",
+    "answer": "Lake Turkana",
     "stat_category": "Landforms",
-    "fun_fact": "The word \"Tsingy\" comes from a local Malagasy word meaning \"where one cannot walk barefoot,\" referring to the razor-sharp rock edges.",
-    "country": "Madagascar"
+    "fun_fact": "Also called the Jade Sea for its unique color, Lake Turkana is home to the world's largest population of Nile crocodiles.",
+    "country": "Kenya"
   },
-  "last_run_date": "September 13, 2026"
+  "last_run_date": "September 14, 2026"
 }
