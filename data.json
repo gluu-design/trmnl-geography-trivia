@@ -1,8 +1,8 @@
 {
-  "date": "September 14, 2026",
-  "question": "Which body of water in northern Kenya holds the record for being the world's largest permanent desert lake?",
-  "answer": "Lake Turkana",
+  "date": "September 15, 2026",
+  "question": "Which European country is home to the Vikos Gorge, recognized by the Guinness Book of World Records as the deepest canyon in the world relative to its width?",
+  "answer": "Greece",
   "stat_category": "Landforms",
-  "fun_fact": "Also called the Jade Sea for its unique color, Lake Turkana is home to the world's largest population of Nile crocodiles.",
-  "show_answer": true
+  "fun_fact": "The Vikos Gorge drops to a depth of nearly 900 meters (2,950 feet) while measuring just a few meters wide at its narrowest point.",
+  "show_answer": false
 }
