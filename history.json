@@ -23,7 +23,8 @@
     "Norway",
     "Madagascar",
     "Kenya",
-    "Greece"
+    "Greece",
+    "Sweden"
   ],
   "past_trivia": [
     {
@@ -207,14 +208,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The Vikos Gorge drops to a depth of nearly 900 meters (2,950 feet) while measuring just a few meters wide at its narrowest point.",
       "country": "Greece"
+    },
+    {
+      "question": "Which country holds the record for the highest total number of islands in the world, estimated at over 267,000?",
+      "answer": "Sweden",
+      "stat_category": "Geography Statistics",
+      "fun_fact": "Despite having more than 267,000 islands, fewer than 1,000 of them are inhabited by people.",
+      "country": "Sweden"
     }
   ],
   "todays_trivia": {
-    "question": "Which European country is home to the Vikos Gorge, recognized by the Guinness Book of World Records as the deepest canyon in the world relative to its width?",
-    "answer": "Greece",
-    "stat_category": "Landforms",
-    "fun_fact": "The Vikos Gorge drops to a depth of nearly 900 meters (2,950 feet) while measuring just a few meters wide at its narrowest point.",
-    "country": "Greece"
+    "question": "Which country holds the record for the highest total number of islands in the world, estimated at over 267,000?",
+    "answer": "Sweden",
+    "stat_category": "Geography Statistics",
+    "fun_fact": "Despite having more than 267,000 islands, fewer than 1,000 of them are inhabited by people.",
+    "country": "Sweden"
   },
-  "last_run_date": "September 15, 2026"
+  "last_run_date": "September 16, 2026"
 }
