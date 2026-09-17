@@ -24,7 +24,8 @@
     "Madagascar",
     "Kenya",
     "Greece",
-    "Sweden"
+    "Sweden",
+    "Argentina"
   ],
   "past_trivia": [
     {
@@ -215,14 +216,21 @@
       "stat_category": "Geography Statistics",
       "fun_fact": "Despite having more than 267,000 islands, fewer than 1,000 of them are inhabited by people.",
       "country": "Sweden"
+    },
+    {
+      "question": "What is the highest mountain peak in both the Southern and Western Hemispheres, located in the Andes range?",
+      "answer": "Mount Aconcagua",
+      "stat_category": "Elevation",
+      "fun_fact": "Standing at 6,961 meters (22,838 feet), Mount Aconcagua is the tallest peak in the world outside of Asia.",
+      "country": "Argentina"
     }
   ],
   "todays_trivia": {
-    "question": "Which country holds the record for the highest total number of islands in the world, estimated at over 267,000?",
-    "answer": "Sweden",
-    "stat_category": "Geography Statistics",
-    "fun_fact": "Despite having more than 267,000 islands, fewer than 1,000 of them are inhabited by people.",
-    "country": "Sweden"
+    "question": "What is the highest mountain peak in both the Southern and Western Hemispheres, located in the Andes range?",
+    "answer": "Mount Aconcagua",
+    "stat_category": "Elevation",
+    "fun_fact": "Standing at 6,961 meters (22,838 feet), Mount Aconcagua is the tallest peak in the world outside of Asia.",
+    "country": "Argentina"
   },
-  "last_run_date": "September 16, 2026"
+  "last_run_date": "September 17, 2026"
 }
