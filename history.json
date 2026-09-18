@@ -25,7 +25,8 @@
     "Kenya",
     "Greece",
     "Sweden",
-    "Argentina"
+    "Argentina",
+    "Egypt"
   ],
   "past_trivia": [
     {
@@ -223,14 +224,21 @@
       "stat_category": "Elevation",
       "fun_fact": "Standing at 6,961 meters (22,838 feet), Mount Aconcagua is the tallest peak in the world outside of Asia.",
       "country": "Argentina"
+    },
+    {
+      "question": "Which artificial waterway in Egypt connects the Mediterranean Sea to the Red Sea, handling approximately 12 percent of global trade?",
+      "answer": "Suez Canal",
+      "stat_category": "Landmarks",
+      "fun_fact": "Opened in 1869, the Suez Canal is 193 km long and has no locks because the two seas are at roughly the same level.",
+      "country": "Egypt"
     }
   ],
   "todays_trivia": {
-    "question": "What is the highest mountain peak in both the Southern and Western Hemispheres, located in the Andes range?",
-    "answer": "Mount Aconcagua",
-    "stat_category": "Elevation",
-    "fun_fact": "Standing at 6,961 meters (22,838 feet), Mount Aconcagua is the tallest peak in the world outside of Asia.",
-    "country": "Argentina"
+    "question": "Which artificial waterway in Egypt connects the Mediterranean Sea to the Red Sea, handling approximately 12 percent of global trade?",
+    "answer": "Suez Canal",
+    "stat_category": "Landmarks",
+    "fun_fact": "Opened in 1869, the Suez Canal is 193 km long and has no locks because the two seas are at roughly the same level.",
+    "country": "Egypt"
   },
-  "last_run_date": "September 17, 2026"
+  "last_run_date": "September 18, 2026"
 }
