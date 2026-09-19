@@ -26,7 +26,8 @@
     "Greece",
     "Sweden",
     "Argentina",
-    "Egypt"
+    "Egypt",
+    "Nepal"
   ],
   "past_trivia": [
     {
@@ -231,14 +232,21 @@
       "stat_category": "Landmarks",
       "fun_fact": "Opened in 1869, the Suez Canal is 193 km long and has no locks because the two seas are at roughly the same level.",
       "country": "Egypt"
+    },
+    {
+      "question": "Which mountain pass in Nepal, located at an elevation of 5,416 meters, is the highest point on the famous Annapurna Circuit?",
+      "answer": "Thorong La",
+      "stat_category": "Elevation",
+      "fun_fact": "Thorong La connects the Manang and Mustang districts and is traditionally marked with thousands of colorful prayer flags.",
+      "country": "Nepal"
     }
   ],
   "todays_trivia": {
-    "question": "Which artificial waterway in Egypt connects the Mediterranean Sea to the Red Sea, handling approximately 12 percent of global trade?",
-    "answer": "Suez Canal",
-    "stat_category": "Landmarks",
-    "fun_fact": "Opened in 1869, the Suez Canal is 193 km long and has no locks because the two seas are at roughly the same level.",
-    "country": "Egypt"
+    "question": "Which mountain pass in Nepal, located at an elevation of 5,416 meters, is the highest point on the famous Annapurna Circuit?",
+    "answer": "Thorong La",
+    "stat_category": "Elevation",
+    "fun_fact": "Thorong La connects the Manang and Mustang districts and is traditionally marked with thousands of colorful prayer flags.",
+    "country": "Nepal"
   },
-  "last_run_date": "September 18, 2026"
+  "last_run_date": "September 19, 2026"
 }
