@@ -27,7 +27,8 @@
     "Sweden",
     "Argentina",
     "Egypt",
-    "Nepal"
+    "Nepal",
+    "China"
   ],
   "past_trivia": [
     {
@@ -239,14 +240,21 @@
       "stat_category": "Elevation",
       "fun_fact": "Thorong La connects the Manang and Mustang districts and is traditionally marked with thousands of colorful prayer flags.",
       "country": "Nepal"
+    },
+    {
+      "question": "Which national forest park in China features thousands of towering sandstone pillars that inspired the floating mountains in the film Avatar?",
+      "answer": "Zhangjiajie National Forest Park",
+      "stat_category": "Landmarks",
+      "fun_fact": "In 2010, one of the park's 3,544-foot quartz-sandstone pillars was officially renamed Avatar Hallelujah Mountain in honor of the film.",
+      "country": "China"
     }
   ],
   "todays_trivia": {
-    "question": "Which mountain pass in Nepal, located at an elevation of 5,416 meters, is the highest point on the famous Annapurna Circuit?",
-    "answer": "Thorong La",
-    "stat_category": "Elevation",
-    "fun_fact": "Thorong La connects the Manang and Mustang districts and is traditionally marked with thousands of colorful prayer flags.",
-    "country": "Nepal"
+    "question": "Which national forest park in China features thousands of towering sandstone pillars that inspired the floating mountains in the film Avatar?",
+    "answer": "Zhangjiajie National Forest Park",
+    "stat_category": "Landmarks",
+    "fun_fact": "In 2010, one of the park's 3,544-foot quartz-sandstone pillars was officially renamed Avatar Hallelujah Mountain in honor of the film.",
+    "country": "China"
   },
-  "last_run_date": "September 19, 2026"
+  "last_run_date": "September 20, 2026"
 }
