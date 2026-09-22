@@ -29,7 +29,8 @@
     "Egypt",
     "Nepal",
     "China",
-    "Finland"
+    "Finland",
+    "Mexico"
   ],
   "past_trivia": [
     {
@@ -255,14 +256,21 @@
       "stat_category": "Lakes",
       "fun_fact": "Finland's thousands of lakes were sculpted by massive glaciers during the last Ice Age around 10,000 years ago.",
       "country": "Finland"
+    },
+    {
+      "question": "Which ancient site in Puebla, Mexico, holds the record for being the world's largest pyramid by volume?",
+      "answer": "Great Pyramid of Cholula",
+      "stat_category": "Landmarks",
+      "fun_fact": "The Great Pyramid of Cholula has a base four times larger than Giza's Great Pyramid and is topped by a 16th-century Spanish church.",
+      "country": "Mexico"
     }
   ],
   "todays_trivia": {
-    "question": "Known as the 'Land of a Thousand Lakes', which European country actually contains 187,888 lakes larger than 500 square meters within its borders?",
-    "answer": "Finland",
-    "stat_category": "Lakes",
-    "fun_fact": "Finland's thousands of lakes were sculpted by massive glaciers during the last Ice Age around 10,000 years ago.",
-    "country": "Finland"
+    "question": "Which ancient site in Puebla, Mexico, holds the record for being the world's largest pyramid by volume?",
+    "answer": "Great Pyramid of Cholula",
+    "stat_category": "Landmarks",
+    "fun_fact": "The Great Pyramid of Cholula has a base four times larger than Giza's Great Pyramid and is topped by a 16th-century Spanish church.",
+    "country": "Mexico"
   },
-  "last_run_date": "September 21, 2026"
+  "last_run_date": "September 22, 2026"
 }

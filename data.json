@@ -1,8 +1,8 @@
 {
-  "date": "September 21, 2026",
-  "question": "Known as the 'Land of a Thousand Lakes', which European country actually contains 187,888 lakes larger than 500 square meters within its borders?",
-  "answer": "Finland",
-  "stat_category": "Lakes",
-  "fun_fact": "Finland's thousands of lakes were sculpted by massive glaciers during the last Ice Age around 10,000 years ago.",
-  "show_answer": true
+  "date": "September 22, 2026",
+  "question": "Which ancient site in Puebla, Mexico, holds the record for being the world's largest pyramid by volume?",
+  "answer": "Great Pyramid of Cholula",
+  "stat_category": "Landmarks",
+  "fun_fact": "The Great Pyramid of Cholula has a base four times larger than Giza's Great Pyramid and is topped by a 16th-century Spanish church.",
+  "show_answer": false
 }
