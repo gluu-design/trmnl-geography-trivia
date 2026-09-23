@@ -263,14 +263,21 @@
       "stat_category": "Landmarks",
       "fun_fact": "The Great Pyramid of Cholula has a base four times larger than Giza's Great Pyramid and is topped by a 16th-century Spanish church.",
       "country": "Mexico"
+    },
+    {
+      "question": "Which country possesses the longest coastline in the world, stretching over 202,000 kilometers?",
+      "answer": "Canada",
+      "stat_category": "Coastline Length",
+      "fun_fact": "If you walked continuously without stopping along Canada's coastline, it would take you over four years to complete the journey.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which ancient site in Puebla, Mexico, holds the record for being the world's largest pyramid by volume?",
-    "answer": "Great Pyramid of Cholula",
-    "stat_category": "Landmarks",
-    "fun_fact": "The Great Pyramid of Cholula has a base four times larger than Giza's Great Pyramid and is topped by a 16th-century Spanish church.",
-    "country": "Mexico"
+    "question": "Which country possesses the longest coastline in the world, stretching over 202,000 kilometers?",
+    "answer": "Canada",
+    "stat_category": "Coastline Length",
+    "fun_fact": "If you walked continuously without stopping along Canada's coastline, it would take you over four years to complete the journey.",
+    "country": "Canada"
   },
-  "last_run_date": "September 22, 2026"
+  "last_run_date": "September 23, 2026"
 }
