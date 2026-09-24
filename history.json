@@ -270,14 +270,21 @@
       "stat_category": "Coastline Length",
       "fun_fact": "If you walked continuously without stopping along Canada's coastline, it would take you over four years to complete the journey.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country possesses the longest coastline in the world, spanning over 202,000 kilometers (125,000 miles)?",
+      "answer": "Canada",
+      "stat_category": "Geography Statistics",
+      "fun_fact": "Canada's coastline is so vast that it accounts for over 10 percent of the entire world's total coastline length.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which country possesses the longest coastline in the world, stretching over 202,000 kilometers?",
+    "question": "Which country possesses the longest coastline in the world, spanning over 202,000 kilometers (125,000 miles)?",
     "answer": "Canada",
-    "stat_category": "Coastline Length",
-    "fun_fact": "If you walked continuously without stopping along Canada's coastline, it would take you over four years to complete the journey.",
+    "stat_category": "Geography Statistics",
+    "fun_fact": "Canada's coastline is so vast that it accounts for over 10 percent of the entire world's total coastline length.",
     "country": "Canada"
   },
-  "last_run_date": "September 23, 2026"
+  "last_run_date": "September 24, 2026"
 }
