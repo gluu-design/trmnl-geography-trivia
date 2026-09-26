@@ -284,14 +284,21 @@
       "stat_category": "Coastline Length",
       "fun_fact": "Canada's coastline is so vast that if you walked it non-stop at 20 kilometers per day, it would take you over 27 years to complete.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country has the longest total coastline in the world, stretching over 202,000 kilometers (125,567 miles)?",
+      "answer": "Canada",
+      "stat_category": "Geographic Statistics",
+      "fun_fact": "Canada's coastline borders three different oceans: the Atlantic, Pacific, and Arctic, accounting for over 10% of the world's total shorelines.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which country possesses the world's longest coastline, measuring approximately 202,080 kilometers in length?",
+    "question": "Which country has the longest total coastline in the world, stretching over 202,000 kilometers (125,567 miles)?",
     "answer": "Canada",
-    "stat_category": "Coastline Length",
-    "fun_fact": "Canada's coastline is so vast that if you walked it non-stop at 20 kilometers per day, it would take you over 27 years to complete.",
+    "stat_category": "Geographic Statistics",
+    "fun_fact": "Canada's coastline borders three different oceans: the Atlantic, Pacific, and Arctic, accounting for over 10% of the world's total shorelines.",
     "country": "Canada"
   },
-  "last_run_date": "September 25, 2026"
+  "last_run_date": "September 26, 2026"
 }
