@@ -1,8 +1,8 @@
 {
-  "date": "September 26, 2026",
-  "question": "Which country has the longest total coastline in the world, stretching over 202,000 kilometers (125,567 miles)?",
+  "date": "September 27, 2026",
+  "question": "Which country possesses the longest coastline in the world, stretching over 202,000 kilometers (125,000 miles)?",
   "answer": "Canada",
-  "stat_category": "Geographic Statistics",
-  "fun_fact": "Canada's coastline borders three different oceans: the Atlantic, Pacific, and Arctic, accounting for over 10% of the world's total shorelines.",
-  "show_answer": true
+  "stat_category": "Coastlines",
+  "fun_fact": "At a walking pace of 20 km per day, it would take a person over 27 years to walk the full length of Canada's coastline.",
+  "show_answer": false
 }
