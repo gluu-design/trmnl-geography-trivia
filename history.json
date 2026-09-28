@@ -298,14 +298,21 @@
       "stat_category": "Coastlines",
       "fun_fact": "At a walking pace of 20 km per day, it would take a person over 27 years to walk the full length of Canada's coastline.",
       "country": "Canada"
+    },
+    {
+      "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, experiences the highest tidal range in the world?",
+      "answer": "Bay of Fundy",
+      "stat_category": "Landforms",
+      "fun_fact": "Tides in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day!",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which country possesses the longest coastline in the world, stretching over 202,000 kilometers (125,000 miles)?",
-    "answer": "Canada",
-    "stat_category": "Coastlines",
-    "fun_fact": "At a walking pace of 20 km per day, it would take a person over 27 years to walk the full length of Canada's coastline.",
+    "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, experiences the highest tidal range in the world?",
+    "answer": "Bay of Fundy",
+    "stat_category": "Landforms",
+    "fun_fact": "Tides in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day!",
     "country": "Canada"
   },
-  "last_run_date": "September 27, 2026"
+  "last_run_date": "September 28, 2026"
 }
