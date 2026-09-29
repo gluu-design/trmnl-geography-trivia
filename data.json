@@ -1,8 +1,8 @@
 {
-  "date": "September 28, 2026",
-  "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, experiences the highest tidal range in the world?",
-  "answer": "Bay of Fundy",
-  "stat_category": "Landforms",
-  "fun_fact": "Tides in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day!",
-  "show_answer": true
+  "date": "September 29, 2026",
+  "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
+  "answer": "Canada",
+  "stat_category": "Lakes",
+  "fun_fact": "Canada is home to over two million lakes, which combined cover nearly 9 percent of the nation's total surface area.",
+  "show_answer": false
 }
