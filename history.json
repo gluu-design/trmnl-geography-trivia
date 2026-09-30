@@ -30,7 +30,8 @@
     "Nepal",
     "China",
     "Finland",
-    "Mexico"
+    "Mexico",
+    "Mongolia"
   ],
   "past_trivia": [
     {
@@ -312,14 +313,21 @@
       "stat_category": "Lakes",
       "fun_fact": "Canada is home to over two million lakes, which combined cover nearly 9 percent of the nation's total surface area.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country is recognized as the least densely populated sovereign nation in the world?",
+      "answer": "Mongolia",
+      "stat_category": "Population Density",
+      "fun_fact": "Despite its massive land area, around 25 to 30 percent of Mongolia's population still lives a traditional nomadic pastoral lifestyle.",
+      "country": "Mongolia"
     }
   ],
   "todays_trivia": {
-    "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
-    "answer": "Canada",
-    "stat_category": "Lakes",
-    "fun_fact": "Canada is home to over two million lakes, which combined cover nearly 9 percent of the nation's total surface area.",
-    "country": "Canada"
+    "question": "Which country is recognized as the least densely populated sovereign nation in the world?",
+    "answer": "Mongolia",
+    "stat_category": "Population Density",
+    "fun_fact": "Despite its massive land area, around 25 to 30 percent of Mongolia's population still lives a traditional nomadic pastoral lifestyle.",
+    "country": "Mongolia"
   },
-  "last_run_date": "September 29, 2026"
+  "last_run_date": "September 30, 2026"
 }

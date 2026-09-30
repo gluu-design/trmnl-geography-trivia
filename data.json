@@ -1,8 +1,8 @@
 {
-  "date": "September 29, 2026",
-  "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
-  "answer": "Canada",
-  "stat_category": "Lakes",
-  "fun_fact": "Canada is home to over two million lakes, which combined cover nearly 9 percent of the nation's total surface area.",
-  "show_answer": true
+  "date": "September 30, 2026",
+  "question": "Which country is recognized as the least densely populated sovereign nation in the world?",
+  "answer": "Mongolia",
+  "stat_category": "Population Density",
+  "fun_fact": "Despite its massive land area, around 25 to 30 percent of Mongolia's population still lives a traditional nomadic pastoral lifestyle.",
+  "show_answer": false
 }
