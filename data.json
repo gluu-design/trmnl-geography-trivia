@@ -1,8 +1,8 @@
 {
-  "date": "October 01, 2026",
-  "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
+  "date": "October 02, 2026",
+  "question": "Which country possesses the world's longest total coastline, stretching over 202,080 kilometers (125,567 miles)?",
   "answer": "Canada",
-  "stat_category": "Hydrology",
-  "fun_fact": "Canada has roughly 62% of the world's 1.42 million natural lakes, which cover nearly 9% of the country's total area.",
-  "show_answer": true
+  "stat_category": "Coastline Length",
+  "fun_fact": "At a pace of 20 kilometers per day, it would take a person over 27 years to walk the entire length of Canada's coastline without stopping.",
+  "show_answer": false
 }
