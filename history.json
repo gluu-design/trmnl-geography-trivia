@@ -334,14 +334,21 @@
       "stat_category": "Coastline Length",
       "fun_fact": "At a pace of 20 kilometers per day, it would take a person over 27 years to walk the entire length of Canada's coastline without stopping.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country possesses the longest total coastline of any nation in the world?",
+      "answer": "Canada",
+      "stat_category": "Coastline Length",
+      "fun_fact": "Canada's coastline stretches over 202,080 kilometers (125,567 miles). At a normal walking pace, it would take a person over 30 years to walk its entire length!",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which country possesses the world's longest total coastline, stretching over 202,080 kilometers (125,567 miles)?",
+    "question": "Which country possesses the longest total coastline of any nation in the world?",
     "answer": "Canada",
     "stat_category": "Coastline Length",
-    "fun_fact": "At a pace of 20 kilometers per day, it would take a person over 27 years to walk the entire length of Canada's coastline without stopping.",
+    "fun_fact": "Canada's coastline stretches over 202,080 kilometers (125,567 miles). At a normal walking pace, it would take a person over 30 years to walk its entire length!",
     "country": "Canada"
   },
-  "last_run_date": "October 02, 2026"
+  "last_run_date": "October 03, 2026"
 }
