@@ -1,8 +1,8 @@
 {
-  "date": "October 03, 2026",
-  "question": "Which country possesses the longest total coastline of any nation in the world?",
+  "date": "October 04, 2026",
+  "question": "Which country possesses the world's longest coastline, stretching over 202,000 kilometers (125,500 miles)?",
   "answer": "Canada",
   "stat_category": "Coastline Length",
-  "fun_fact": "Canada's coastline stretches over 202,080 kilometers (125,567 miles). At a normal walking pace, it would take a person over 30 years to walk its entire length!",
-  "show_answer": true
+  "fun_fact": "Canada's coastline is so long that walking along it continuously at an average pace without stopping would take over 30 years!",
+  "show_answer": false
 }
