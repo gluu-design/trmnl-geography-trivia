@@ -1,8 +1,8 @@
 {
-  "date": "October 07, 2026",
-  "question": "Which country possesses the longest total coastline of any nation in the world?",
-  "answer": "Canada",
-  "stat_category": "Coastlines",
-  "fun_fact": "Canada's coastline stretches over 202,080 kilometers (125,567 miles). Walking it continuously at a normal pace would take over 30 years!",
-  "show_answer": true
+  "date": "October 08, 2026",
+  "question": "Which Canadian body of water, located between Nova Scotia and New Brunswick, is famous for having the highest tidal range on Earth?",
+  "answer": "Bay of Fundy",
+  "stat_category": "Coastline & Tides",
+  "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 100 billion tons of water in a single tidal cycle!",
+  "show_answer": false
 }
