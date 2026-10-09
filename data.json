@@ -1,8 +1,8 @@
 {
-  "date": "October 08, 2026",
-  "question": "Which Canadian body of water, located between Nova Scotia and New Brunswick, is famous for having the highest tidal range on Earth?",
-  "answer": "Bay of Fundy",
-  "stat_category": "Coastline & Tides",
-  "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 100 billion tons of water in a single tidal cycle!",
-  "show_answer": true
+  "date": "October 09, 2026",
+  "question": "Spanning over 650,000 square kilometers, what is the world's largest continuous sand desert, located primarily in Saudi Arabia?",
+  "answer": "Rub' al Khali (The Empty Quarter)",
+  "stat_category": "Landforms",
+  "fun_fact": "Despite its extreme heat and hyper-arid climate, the Rub' al Khali holds vast oil reserves beneath its massive sand dunes.",
+  "show_answer": false
 }
