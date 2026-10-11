@@ -1,8 +1,8 @@
 {
-  "date": "October 10, 2026",
-  "question": "Spanning over 10,000 square kilometers, what is the name of the world's largest salt flat, located in southwestern Bolivia?",
-  "answer": "Salar de Uyuni",
-  "stat_category": "Landforms",
-  "fun_fact": "When covered with a thin layer of water, Salar de Uyuni becomes the world's largest mirror, used to calibrate satellite orbits.",
-  "show_answer": true
+  "date": "October 11, 2026",
+  "question": "Which body of water, located between Nova Scotia and New Brunswick, experiences the highest tidal range on Earth?",
+  "answer": "Bay of Fundy",
+  "stat_category": "Tides",
+  "fun_fact": "Twice daily, 160 billion tons of water flush in and out of the Bay of Fundy, exceeding the total combined flow of all freshwater rivers on Earth.",
+  "show_answer": false
 }
