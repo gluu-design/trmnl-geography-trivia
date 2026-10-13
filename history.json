@@ -405,14 +405,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The Bay of Fundy's extreme tides can reach up to 16 meters (52 feet), moving 160 billion tons of water in and out twice daily.",
       "country": "Canada"
+    },
+    {
+      "question": "What is the name of the world's largest salt flat, spanning over 10,000 square kilometers in Bolivia?",
+      "answer": "Salar de Uyuni",
+      "stat_category": "Landforms",
+      "fun_fact": "When covered with water, it becomes a giant mirror used by satellites to calibrate their altimeters due to its extreme flatness.",
+      "country": "Bolivia"
     }
   ],
   "todays_trivia": {
-    "question": "Which body of water located between Nova Scotia and New Brunswick experiences the highest tidal range on Earth?",
-    "answer": "Bay of Fundy",
+    "question": "What is the name of the world's largest salt flat, spanning over 10,000 square kilometers in Bolivia?",
+    "answer": "Salar de Uyuni",
     "stat_category": "Landforms",
-    "fun_fact": "The Bay of Fundy's extreme tides can reach up to 16 meters (52 feet), moving 160 billion tons of water in and out twice daily.",
-    "country": "Canada"
+    "fun_fact": "When covered with water, it becomes a giant mirror used by satellites to calibrate their altimeters due to its extreme flatness.",
+    "country": "Bolivia"
   },
-  "last_run_date": "October 12, 2026"
+  "last_run_date": "October 13, 2026"
 }
