@@ -32,7 +32,8 @@
     "Finland",
     "Mexico",
     "Mongolia",
-    "Saudi Arabia"
+    "Saudi Arabia",
+    "Belize"
   ],
   "past_trivia": [
     {
@@ -433,14 +434,21 @@
       "stat_category": "Coastline Length",
       "fun_fact": "If you walked along Canada's coastline without stopping, it would take you over 30 years to complete the journey!",
       "country": "Canada"
+    },
+    {
+      "question": "Located off the coast of Belize, what massive underwater marine sinkhole measures over 300 meters across and 124 meters deep?",
+      "answer": "Great Blue Hole",
+      "stat_category": "Landmarks",
+      "fun_fact": "Jacques Cousteau made the site famous in 1971 by declaring it one of the top ten scuba diving sites in the world.",
+      "country": "Belize"
     }
   ],
   "todays_trivia": {
-    "question": "Which country has the longest coastline in the world, stretching over 202,000 kilometers (125,000 miles)?",
-    "answer": "Canada",
-    "stat_category": "Coastline Length",
-    "fun_fact": "If you walked along Canada's coastline without stopping, it would take you over 30 years to complete the journey!",
-    "country": "Canada"
+    "question": "Located off the coast of Belize, what massive underwater marine sinkhole measures over 300 meters across and 124 meters deep?",
+    "answer": "Great Blue Hole",
+    "stat_category": "Landmarks",
+    "fun_fact": "Jacques Cousteau made the site famous in 1971 by declaring it one of the top ten scuba diving sites in the world.",
+    "country": "Belize"
   },
-  "last_run_date": "October 16, 2026"
+  "last_run_date": "October 17, 2026"
 }
