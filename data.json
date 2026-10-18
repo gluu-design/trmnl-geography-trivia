@@ -1,8 +1,8 @@
 {
-  "date": "October 17, 2026",
-  "question": "Located off the coast of Belize, what massive underwater marine sinkhole measures over 300 meters across and 124 meters deep?",
-  "answer": "Great Blue Hole",
-  "stat_category": "Landmarks",
-  "fun_fact": "Jacques Cousteau made the site famous in 1971 by declaring it one of the top ten scuba diving sites in the world.",
-  "show_answer": true
+  "date": "October 18, 2026",
+  "question": "What is the name of the world's largest salt flat, spanning over 10,000 square kilometers in southwestern Bolivia?",
+  "answer": "Salar de Uyuni",
+  "stat_category": "Landforms",
+  "fun_fact": "When covered by a thin layer of water after rain, Salar de Uyuni becomes the world's largest natural mirror, creating stunning reflections.",
+  "show_answer": false
 }
