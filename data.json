@@ -1,8 +1,8 @@
 {
-  "date": "October 18, 2026",
-  "question": "What is the name of the world's largest salt flat, spanning over 10,000 square kilometers in southwestern Bolivia?",
-  "answer": "Salar de Uyuni",
-  "stat_category": "Landforms",
-  "fun_fact": "When covered by a thin layer of water after rain, Salar de Uyuni becomes the world's largest natural mirror, creating stunning reflections.",
-  "show_answer": true
+  "date": "October 19, 2026",
+  "question": "Which country possesses the world's longest coastline, stretching over 202,000 kilometers (125,000 miles)?",
+  "answer": "Canada",
+  "stat_category": "Coastline",
+  "fun_fact": "At a walking pace of 20 km/day, it would take a person over 27 years to walk the entire length of Canada's coastline!",
+  "show_answer": false
 }
