@@ -462,14 +462,21 @@
       "stat_category": "Tides",
       "fun_fact": "The tidal range in the Bay of Fundy can reach over 16 meters (53 feet), moving 160 billion tons of water twice every day.",
       "country": "Canada"
+    },
+    {
+      "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, is famous for having the highest tidal range in the world?",
+      "answer": "Bay of Fundy",
+      "stat_category": "Landforms",
+      "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 160 billion tons of water in and out during a single tide cycle.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Located between the Canadian provinces of New Brunswick and Nova Scotia, which body of water is famous for having the highest tidal range in the world?",
+    "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, is famous for having the highest tidal range in the world?",
     "answer": "Bay of Fundy",
-    "stat_category": "Tides",
-    "fun_fact": "The tidal range in the Bay of Fundy can reach over 16 meters (53 feet), moving 160 billion tons of water twice every day.",
+    "stat_category": "Landforms",
+    "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 160 billion tons of water in and out during a single tide cycle.",
     "country": "Canada"
   },
-  "last_run_date": "October 20, 2026"
+  "last_run_date": "October 21, 2026"
 }
