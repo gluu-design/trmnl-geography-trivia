@@ -469,14 +469,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 160 billion tons of water in and out during a single tide cycle.",
       "country": "Canada"
+    },
+    {
+      "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
+      "answer": "Canada",
+      "stat_category": "Hydrology Statistics",
+      "fun_fact": "Canada has over 870,000 lakes, covering nearly nine percent of its surface area and holding a vast portion of the world's liquid freshwater.",
+      "country": "Canada"
     }
   ],
   "todays_trivia": {
-    "question": "Which body of water, located between the Canadian provinces of New Brunswick and Nova Scotia, is famous for having the highest tidal range in the world?",
-    "answer": "Bay of Fundy",
-    "stat_category": "Landforms",
-    "fun_fact": "The Bay of Fundy's tides can reach up to 16 meters (53 feet) high, moving over 160 billion tons of water in and out during a single tide cycle.",
+    "question": "Which country contains more than 60 percent of all the natural lakes in the world?",
+    "answer": "Canada",
+    "stat_category": "Hydrology Statistics",
+    "fun_fact": "Canada has over 870,000 lakes, covering nearly nine percent of its surface area and holding a vast portion of the world's liquid freshwater.",
     "country": "Canada"
   },
-  "last_run_date": "October 21, 2026"
+  "last_run_date": "October 22, 2026"
 }
