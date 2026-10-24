@@ -483,14 +483,21 @@
       "stat_category": "Geography Statistics",
       "fun_fact": "Canada's coastline is so long that walking non-stop along its entirety would take a person over 30 years to complete.",
       "country": "Canada"
+    },
+    {
+      "question": "Which South American country is home to the Atacama Desert, the driest non-polar desert in the world?",
+      "answer": "Chile",
+      "stat_category": "Landforms",
+      "fun_fact": "Due to its extreme aridity and clear skies, the Atacama Desert hosts some of the world's largest astronomical observatories.",
+      "country": "Chile"
     }
   ],
   "todays_trivia": {
-    "question": "Which country has the longest total coastline in the world, measuring approximately 202,080 kilometers (125,567 miles)?",
-    "answer": "Canada",
-    "stat_category": "Geography Statistics",
-    "fun_fact": "Canada's coastline is so long that walking non-stop along its entirety would take a person over 30 years to complete.",
-    "country": "Canada"
+    "question": "Which South American country is home to the Atacama Desert, the driest non-polar desert in the world?",
+    "answer": "Chile",
+    "stat_category": "Landforms",
+    "fun_fact": "Due to its extreme aridity and clear skies, the Atacama Desert hosts some of the world's largest astronomical observatories.",
+    "country": "Chile"
   },
-  "last_run_date": "October 23, 2026"
+  "last_run_date": "October 24, 2026"
 }
