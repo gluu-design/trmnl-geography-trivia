@@ -1,8 +1,8 @@
 {
-  "date": "October 24, 2026",
-  "question": "Which South American country is home to the Atacama Desert, the driest non-polar desert in the world?",
-  "answer": "Chile",
+  "date": "October 25, 2026",
+  "question": "Which body of water located between New Brunswick and Nova Scotia in Canada is famous for having the highest tidal range in the world?",
+  "answer": "Bay of Fundy",
   "stat_category": "Landforms",
-  "fun_fact": "Due to its extreme aridity and clear skies, the Atacama Desert hosts some of the world's largest astronomical observatories.",
-  "show_answer": true
+  "fun_fact": "The tidal range in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day.",
+  "show_answer": false
 }
