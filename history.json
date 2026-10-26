@@ -497,14 +497,21 @@
       "stat_category": "Landforms",
       "fun_fact": "The tidal range in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day.",
       "country": "Canada"
+    },
+    {
+      "question": "Located primarily in northern Chile, what plateau region is considered the driest non-polar desert in the world?",
+      "answer": "Atacama Desert",
+      "stat_category": "Deserts",
+      "fun_fact": "Some weather stations in the Atacama Desert have never recorded a single drop of rainfall in recorded history.",
+      "country": "Chile"
     }
   ],
   "todays_trivia": {
-    "question": "Which body of water located between New Brunswick and Nova Scotia in Canada is famous for having the highest tidal range in the world?",
-    "answer": "Bay of Fundy",
-    "stat_category": "Landforms",
-    "fun_fact": "The tidal range in the Bay of Fundy can reach up to 16 meters (53 feet), moving over 100 billion tons of water twice a day.",
-    "country": "Canada"
+    "question": "Located primarily in northern Chile, what plateau region is considered the driest non-polar desert in the world?",
+    "answer": "Atacama Desert",
+    "stat_category": "Deserts",
+    "fun_fact": "Some weather stations in the Atacama Desert have never recorded a single drop of rainfall in recorded history.",
+    "country": "Chile"
   },
-  "last_run_date": "October 25, 2026"
+  "last_run_date": "October 26, 2026"
 }
