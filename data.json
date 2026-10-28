@@ -1,8 +1,8 @@
 {
-  "date": "October 27, 2026",
-  "question": "Which South American country is home to Salar de Uyuni, the world's largest salt flat spanning over 10,000 square kilometers?",
-  "answer": "Bolivia",
-  "stat_category": "Landforms",
-  "fun_fact": "Salar de Uyuni contains over 10 billion tons of salt and holds around 50% to 70% of the world's known lithium reserves.",
-  "show_answer": true
+  "date": "October 28, 2026",
+  "question": "What desert located primarily in northern Chile is considered the driest non-polar desert in the world?",
+  "answer": "Atacama Desert",
+  "stat_category": "Deserts",
+  "fun_fact": "Some weather stations in the Atacama Desert have never recorded a single drop of rain in recorded history.",
+  "show_answer": false
 }
