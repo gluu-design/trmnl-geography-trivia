@@ -518,14 +518,21 @@
       "stat_category": "Deserts",
       "fun_fact": "Some weather stations in the Atacama Desert have never recorded a single drop of rain in recorded history.",
       "country": "Chile"
+    },
+    {
+      "question": "Spanning over 10,000 square kilometers, what Bolivian landform is the largest salt flat in the world?",
+      "answer": "Salar de Uyuni",
+      "stat_category": "Landforms",
+      "fun_fact": "When covered in a thin layer of water, Salar de Uyuni acts as the world's largest natural mirror and is used by satellites to calibrate their distance measurements.",
+      "country": "Bolivia"
     }
   ],
   "todays_trivia": {
-    "question": "What desert located primarily in northern Chile is considered the driest non-polar desert in the world?",
-    "answer": "Atacama Desert",
-    "stat_category": "Deserts",
-    "fun_fact": "Some weather stations in the Atacama Desert have never recorded a single drop of rain in recorded history.",
-    "country": "Chile"
+    "question": "Spanning over 10,000 square kilometers, what Bolivian landform is the largest salt flat in the world?",
+    "answer": "Salar de Uyuni",
+    "stat_category": "Landforms",
+    "fun_fact": "When covered in a thin layer of water, Salar de Uyuni acts as the world's largest natural mirror and is used by satellites to calibrate their distance measurements.",
+    "country": "Bolivia"
   },
-  "last_run_date": "October 28, 2026"
+  "last_run_date": "October 29, 2026"
 }
