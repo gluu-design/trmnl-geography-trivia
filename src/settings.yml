@@ -6,6 +6,7 @@ static_data: ''
 polling_verb: get
 framework_version: 3.1.5
 serverless_language: ''
+refresh_interval_floor: ''
 polling_url: https://gluu-design.github.io/trmnl-geography-trivia/data.json
 polling_headers: ''
 polling_body: ''
@@ -36,8 +37,14 @@ custom_fields:
   category: news,education
   field_type: author_bio
   description: Geo Loop delivers a hand-crafted geographical trivia challenge to your screen every single day. Created by GuiL
-  github_url: https://github.com/gluu-design
-  learn_more_url: https://gluu-design.github.io/trmnl-geography-trivia
+- keyname: answer_size
+  field_type: select
+  name: Answer size
+  description: Choose how big the answer looks on screen
+  options:
+  - Small: small
+  - Large: large
+  default: small
 name: Geo Loop
 description: Gradual daily geography trivia
 refresh_interval: 15
