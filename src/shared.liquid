@@ -1,0 +1,13 @@
+{% comment %} GEO LOOP · SHARED: runs before every view {% endcomment %}
+
+{% assign d_question = question | default: data.question | default: payload.question | default: "Which country has the most natural lakes?" %}
+{% assign d_category = stat_category | default: data.stat_category | default: payload.stat_category | default: "Landforms" %}
+{% assign d_answer = answer | default: data.answer | default: payload.answer | default: "Canada" %}
+{% assign d_fact = fun_fact | default: data.fun_fact | default: payload.fun_fact | default: "Canada holds over 60% of all natural lakes on Earth." %}
+{% assign raw_show = show_answer | default: data.show_answer | default: payload.show_answer %}
+{% if raw_show == true or raw_show == 'true' or raw_show == 'True' %}{% assign d_show = true %}{% else %}{% assign d_show = false %}{% endif %}
+
+{% if d_show %}{% assign a_txt = d_answer %}{% else %}{% assign a_txt = "LOCKED" %}{% endif %}
+
+{% assign d_answer_size = trmnl.plugin_settings.custom_fields_values.answer_size | default: "small" %}
+{% if d_answer_size == "large" %}{% assign d_big = true %}{% else %}{% assign d_big = false %}{% endif %}
