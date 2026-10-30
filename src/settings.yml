@@ -37,6 +37,8 @@ custom_fields:
   category: news,education
   field_type: author_bio
   description: Geo Loop delivers a hand-crafted geographical trivia challenge to your screen every single day. Created by GuiL
+  github_url: https://github.com/gluu-design/trmnl-geography-trivia
+  learn_more_url: https://github.com/gluu-design/trmnl-geography-trivia
 - keyname: answer_size
   field_type: select
   name: Answer size
