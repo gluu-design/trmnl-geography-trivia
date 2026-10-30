@@ -34,9 +34,9 @@ oauth_fixed_expiry_ms: ''
 custom_fields:
 - keyname: author_bio_settings
   name: About This Plugin
-  category: news,education
+  category: education
   field_type: author_bio
-  description: Geo Loop delivers a hand-crafted geographical trivia challenge to your screen every single day. Created by GuiL
+  description: Geo Loop delivers a hand-crafted geographical trivia challenge to your screen every single day. A new question every morning; the answer is revealed at 6 PM Eastern Time. Created by GuiL
   github_url: https://github.com/gluu-design/trmnl-geography-trivia
   learn_more_url: https://github.com/gluu-design/trmnl-geography-trivia
 - keyname: answer_size
