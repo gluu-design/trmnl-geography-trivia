@@ -1,8 +1,8 @@
 {
   "date": "October 30, 2026",
-  "question": "Which country has the longest total coastline in the world, measuring over 202,000 kilometers (125,000 miles)?",
-  "answer": "Canada",
-  "stat_category": "Coastline Length",
-  "fun_fact": "Canada's coastline is so vast that walking it continuously at a normal pace without stopping would take more than four years.",
-  "show_answer": false
+  "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
+  "answer": "Karakum Desert",
+  "stat_category": "Physical Geography",
+  "fun_fact": "Despite its name meaning 'Black Sand', the desert's dunes are actually golden-brown; 'black' originally referred to the rich, dark soil beneath the sand.",
+  "show_answer": true
 }
