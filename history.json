@@ -34,7 +34,9 @@
     "Mongolia",
     "Saudi Arabia",
     "Belize",
-    "Turkmenistan"
+    "Turkmenistan",
+    "Romania",
+    "Bulgaria"
   ],
   "past_trivia": [
     {
@@ -541,15 +543,57 @@
       "fun_fact": "Despite its name meaning 'Black Sand', the desert's dunes are actually golden-brown; 'black' originally referred to the rich, dark soil beneath the sand.",
       "country": "Turkmenistan",
       "date": "October 30, 2026"
+    },
+    {
+      "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
+      "answer": "Lake Saint Anne",
+      "stat_category": "Volcanic Lakes",
+      "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water.",
+      "country": "Romania",
+      "date": "October 31, 2026"
+    },
+    {
+      "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
+      "answer": "Tran",
+      "stat_category": "Lowest Recorded Temperature",
+      "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
+      "country": "Bulgaria",
+      "date": "November 01, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
-    "answer": "Karakum Desert",
-    "stat_category": "Physical Geography",
-    "fun_fact": "Despite its name meaning 'Black Sand', the desert's dunes are actually golden-brown; 'black' originally referred to the rich, dark soil beneath the sand.",
-    "country": "Turkmenistan",
-    "date": "October 30, 2026"
+    "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
+    "answer": "Lake Saint Anne",
+    "stat_category": "Volcanic Lakes",
+    "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water.",
+    "country": "Romania",
+    "date": "October 31, 2026"
   },
-  "last_run_date": "October 30, 2026"
+  "last_run_date": "October 31, 2026",
+  "schedule": {
+    "2026-10-30": {
+      "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
+      "answer": "Karakum Desert",
+      "stat_category": "Physical Geography",
+      "fun_fact": "Despite its name meaning 'Black Sand', the desert's dunes are actually golden-brown; 'black' originally referred to the rich, dark soil beneath the sand.",
+      "country": "Turkmenistan",
+      "date": "October 30, 2026"
+    },
+    "2026-10-31": {
+      "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
+      "answer": "Lake Saint Anne",
+      "stat_category": "Volcanic Lakes",
+      "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water.",
+      "country": "Romania",
+      "date": "October 31, 2026"
+    },
+    "2026-11-01": {
+      "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
+      "answer": "Tran",
+      "stat_category": "Lowest Recorded Temperature",
+      "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
+      "country": "Bulgaria",
+      "date": "November 01, 2026"
+    }
+  }
 }
