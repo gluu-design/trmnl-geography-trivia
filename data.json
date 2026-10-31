@@ -4,7 +4,7 @@
   "answer": "Lake Saint Anne",
   "stat_category": "Volcanic Lakes",
   "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-10-30",
