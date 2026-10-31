@@ -4,7 +4,7 @@ import random
 import re
 import unicodedata
 import zoneinfo
-from datetime import datetime
+from datetime import datetime, timedelta
 from google import genai
 from google.genai import types
 
@@ -184,51 +184,107 @@ Rules:
     return None
 
 
-def generate_geo_loop_data():
-    tz = zoneinfo.ZoneInfo("America/New_York")
-    now = datetime.now(tz)
-    today_str = now.strftime("%B %d, %Y")
+TZ = zoneinfo.ZoneInfo("America/New_York")
+# Keep the published schedule small: yesterday, today and tomorrow (New York dates)
+# cover every time zone on Earth. Older schedule entries are pruned after this many days.
+KEEP_DAYS = 7
 
-    # 18 = 6:00 PM Eastern Time. Change this number if you want the reveal earlier/later.
-    is_evening = now.hour >= 18
+
+def human_date(d):
+    return d.strftime("%B %d, %Y")
+
+
+def migrate_history(history):
+    """Older history files only had 'todays_trivia' + 'last_run_date'. Move that into 'schedule'."""
+    history.setdefault("schedule", {})
+    if not history["schedule"] and history.get("todays_trivia") and history.get("last_run_date"):
+        try:
+            d = datetime.strptime(history["last_run_date"], "%B %d, %Y").date()
+            entry = dict(history["todays_trivia"])
+            entry["date"] = human_date(d)
+            history["schedule"][d.isoformat()] = entry
+            print(f"Migrated existing question to the schedule for {d.isoformat()}.")
+        except ValueError:
+            pass
+
+
+def ensure_question(history, day):
+    """Make sure the schedule has a question for `day`. Returns True if a new one was added."""
+    key = day.isoformat()
+    if key in history["schedule"]:
+        return False
+    print(f"No question yet for {key}. Asking Gemini...")
+    trivia = fetch_gemini_trivia(history)
+    if not trivia:
+        print(f"Could not get a question for {key}; the next run will try again.")
+        return False
+    trivia["date"] = human_date(day)
+    history["schedule"][key] = trivia
+    history["past_trivia"].append(trivia)
+    if trivia["country"] not in history["used_countries"]:
+        history["used_countries"].append(trivia["country"])
+    return True
+
+
+def public_entry(key, t):
+    return {
+        "date": key,
+        "question": t["question"],
+        "answer": t["answer"],
+        "stat_category": t["stat_category"],
+        "fun_fact": t["fun_fact"],
+    }
+
+
+def generate_geo_loop_data():
+    override = os.getenv("GEO_NOW")  # for testing only, e.g. 2026-10-31T10:00
+    now = datetime.fromisoformat(override).replace(tzinfo=TZ) if override else datetime.now(TZ)
+    today = now.date()
+    yesterday = today - timedelta(days=1)
+    tomorrow = today + timedelta(days=1)
 
     history = load_history()
+    migrate_history(history)
 
-    # DAILY CACHE CHECK: If we already have a question for today, reuse it!
-    if history.get("last_run_date") == today_str and history.get("todays_trivia"):
-        trivia = history["todays_trivia"]
-        print("Loaded today's existing trivia. Generating payload...")
-    else:
-        print("New day detected. Fetching new trivia from Gemini...")
-        trivia = fetch_gemini_trivia(history)
+    # Today's question first (normally already there), then tomorrow's, prepared a day ahead.
+    changed = ensure_question(history, today)
+    changed = ensure_question(history, tomorrow) or changed
 
-        if trivia:
-            trivia["date"] = today_str
-            if trivia["country"] not in history["used_countries"]:
-                history["used_countries"].append(trivia["country"])
-            history["past_trivia"].append(trivia)
-            history["todays_trivia"] = trivia
-            history["last_run_date"] = today_str
-            save_history(history)
-        else:
-            # Don't save anything: the next scheduled run will try again.
-            print("No valid new trivia. Keeping the previous question; will retry next run.")
-            trivia = history.get("todays_trivia") or FALLBACK_TRIVIA
+    # Drop old schedule entries (past_trivia keeps the full record for anti-repeat).
+    cutoff = (today - timedelta(days=KEEP_DAYS)).isoformat()
+    history["schedule"] = {k: v for k, v in sorted(history["schedule"].items()) if k >= cutoff}
 
-    # Generate the payload that TRMNL will read
+    # Keep the old fields up to date too.
+    if today.isoformat() in history["schedule"]:
+        history["todays_trivia"] = history["schedule"][today.isoformat()]
+        history["last_run_date"] = human_date(today)
+
+    if changed:
+        save_history(history)
+
+    # Days published to TRMNL. The screen picks the right one using each user's local time.
+    days = [public_entry(k, history["schedule"][k])
+            for k in (yesterday.isoformat(), today.isoformat(), tomorrow.isoformat())
+            if k in history["schedule"]]
+
+    # Legacy top-level fields (New York time), so older markup keeps working.
+    current = next((d for d in reversed(days) if d["date"] <= today.isoformat()), None)
+    if current is None:
+        current = public_entry(today.isoformat(), FALLBACK_TRIVIA)
     payload = {
-        "date": today_str,
-        "question": trivia["question"],
-        "answer": trivia["answer"],
-        "stat_category": trivia["stat_category"],
-        "fun_fact": trivia["fun_fact"],
-        "show_answer": is_evening
+        "date": human_date(datetime.fromisoformat(current["date"])),
+        "question": current["question"],
+        "answer": current["answer"],
+        "stat_category": current["stat_category"],
+        "fun_fact": current["fun_fact"],
+        "show_answer": now.hour >= 18 or current["date"] < today.isoformat(),
+        "geo_days": days,
     }
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"Payload saved! Show Answer is set to: {is_evening}")
+    print(f"Published {len(days)} day(s): {', '.join(d['date'] for d in days)}")
 
 
 if __name__ == "__main__":
