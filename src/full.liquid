@@ -1,22 +1,39 @@
-{% if d_big %}
-  {% assign a_cls = "value--large lg:value--xxlarge" %}
+{% comment %} GEO LOOP · SHARED: runs before every view.
+  New question at 6 AM and answer at 6 PM, in each viewer's own time zone. {% endcomment %}
+
+{% comment %} 1. The viewer's local date and hour {% endcomment %}
+{% assign d_offset = trmnl.user.utc_offset | default: 0 %}
+{% assign d_now = "now" | date: "%s" | plus: d_offset %}
+{% assign d_today = d_now | date: "%Y-%m-%d" %}
+{% assign d_hour = d_now | date: "%H" | plus: 0 %}
+{% assign d_yesterday = d_now | minus: 86400 | date: "%Y-%m-%d" %}
+
+{% comment %} 2. Before 6 AM keep showing yesterday's question (with its answer) {% endcomment %}
+{% if d_hour < 6 %}{% assign d_target = d_yesterday %}{% else %}{% assign d_target = d_today %}{% endif %}
+
+{% comment %} 3. Pick the latest question dated on or before that day {% endcomment %}
+{% assign d_days = geo_days | default: data.geo_days %}
+{% assign d_pick = nil %}
+{% for d in d_days %}{% if d.date <= d_target %}{% assign d_pick = d %}{% endif %}{% endfor %}
+
+{% if d_pick %}
+  {% assign d_question = d_pick.question %}
+  {% assign d_category = d_pick.stat_category %}
+  {% assign d_answer = d_pick.answer %}
+  {% assign d_fact = d_pick.fun_fact %}
+  {% comment %} Revealed from 6 PM, or any time for an earlier day's question {% endcomment %}
+  {% if d_pick.date < d_today or d_hour >= 18 %}{% assign d_show = true %}{% else %}{% assign d_show = false %}{% endif %}
 {% else %}
-  {% assign a_cls = "value--small lg:value--base" %}
+  {% comment %} Fallback: older data.json format {% endcomment %}
+  {% assign d_question = question | default: data.question | default: "Which country has the most natural lakes?" %}
+  {% assign d_category = stat_category | default: data.stat_category | default: "Landforms" %}
+  {% assign d_answer = answer | default: data.answer | default: "Canada" %}
+  {% assign d_fact = fun_fact | default: data.fun_fact | default: "Canada holds over 60% of all natural lakes on Earth." %}
+  {% assign raw_show = show_answer | default: data.show_answer %}
+  {% if raw_show == true or raw_show == 'true' or raw_show == 'True' %}{% assign d_show = true %}{% else %}{% assign d_show = false %}{% endif %}
 {% endif %}
 
-<div class="layout layout--col layout--center gap--medium lg:gap--large">
-  <span class="title title--large lg:title--xxlarge text--center">{{ d_question }}</span>
+{% if d_show %}{% assign a_txt = d_answer %}{% else %}{% assign a_txt = "LOCKED" %}{% endif %}
 
-  <span class="value {{ a_cls }} text--center">{{ a_txt }}</span>
-
-  {% if d_show %}
-    <span class="description description--large lg:description--xxlarge text--center" data-clamp="3">{{ d_fact }}</span>
-  {% endif %}
-
-  <span class="label lg:label--large">CAT: {{ d_category }}</span>
-</div>
-
-<div class="title_bar">
-  <span class="title">Geo Loop</span>
-  <span class="instance">{{ trmnl.plugin_settings.instance_name }}</span>
-</div>
+{% assign d_answer_size = trmnl.plugin_settings.custom_fields_values.answer_size | default: "small" %}
+{% if d_answer_size == "large" %}{% assign d_big = true %}{% else %}{% assign d_big = false %}{% endif %}
