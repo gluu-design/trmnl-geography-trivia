@@ -1,18 +1,11 @@
 {
-  "date": "October 31, 2026",
-  "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
-  "answer": "Lake Saint Anne",
-  "stat_category": "Volcanic Lakes",
-  "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water.",
-  "show_answer": true,
+  "date": "November 01, 2026",
+  "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
+  "answer": "Tran",
+  "stat_category": "Lowest Recorded Temperature",
+  "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-10-30",
-      "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
-      "answer": "Karakum Desert",
-      "stat_category": "Physical Geography",
-      "fun_fact": "Despite its name meaning 'Black Sand', the desert's dunes are actually golden-brown; 'black' originally referred to the rich, dark soil beneath the sand."
-    },
     {
       "date": "2026-10-31",
       "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
@@ -26,6 +19,13 @@
       "answer": "Tran",
       "stat_category": "Lowest Recorded Temperature",
       "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F)."
+    },
+    {
+      "date": "2026-11-02",
+      "question": "In Morocco's High Atlas mountains, which tiered 110-meter waterfalls take their name from the local Berber word for 'grinding grain,' a nod to the ancient water-powered olive mills at their crest?",
+      "answer": "Ouzoud Falls",
+      "stat_category": "Waterfalls",
+      "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques."
     }
   ]
 }
