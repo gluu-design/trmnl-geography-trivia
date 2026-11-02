@@ -5,12 +5,12 @@
 {% endif %}
 
 <div class="layout layout--col layout--center gap--small lg:gap--medium">
-  <span class="title lg:title--xlarge text--center" data-clamp="3">{{ d_question }}</span>
+  <span class="title lg:title--xlarge text--center" data-clamp="3" data-clamp-portrait="6">{{ d_question }}</span>
 
   <span class="value {{ a_cls }} text--center">{{ a_txt }}</span>
 
   {% if d_show %}
-    <span class="description lg:description--xlarge text--center" data-clamp="1" data-clamp-lg="2">{{ d_fact }}</span>
+    <span class="description lg:description--xlarge text--center" data-clamp="1" data-clamp-lg="2"  data-clamp-portrait="4">{{ d_fact }}</span>
   {% endif %}
 
   <span class="label label--small lg:label--base">CAT: {{ d_category }}</span>
