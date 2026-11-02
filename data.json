@@ -4,7 +4,7 @@
   "answer": "Tran",
   "stat_category": "Lowest Recorded Temperature",
   "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-10-31",
