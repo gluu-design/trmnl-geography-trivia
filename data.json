@@ -1,18 +1,11 @@
 {
-  "date": "November 01, 2026",
-  "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
-  "answer": "Tran",
-  "stat_category": "Lowest Recorded Temperature",
-  "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
-  "show_answer": true,
+  "date": "November 02, 2026",
+  "question": "In Morocco's High Atlas mountains, which tiered 110-meter waterfalls take their name from the local Berber word for 'grinding grain,' a nod to the ancient water-powered olive mills at their crest?",
+  "answer": "Ouzoud Falls",
+  "stat_category": "Waterfalls",
+  "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-10-31",
-      "question": "Located in the Harghita Mountains within the crater of the extinct Ciomadul volcano, what is the only intact volcanic crater lake in Romania?",
-      "answer": "Lake Saint Anne",
-      "stat_category": "Volcanic Lakes",
-      "fun_fact": "Because the lake is fed solely by precipitation rather than runoff, its water has an exceptionally low mineral content, near that of distilled water."
-    },
     {
       "date": "2026-11-01",
       "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
@@ -26,6 +19,13 @@
       "answer": "Ouzoud Falls",
       "stat_category": "Waterfalls",
       "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques."
+    },
+    {
+      "date": "2026-11-03",
+      "question": "Known locally as Gangirwal, or 'Mountain of Death', what 2,419-meter summit located in Gashaka-Gumti National Park is the highest peak in Nigeria and all of West Africa?",
+      "answer": "Chappal Waddi",
+      "stat_category": "Highest Elevation",
+      "fun_fact": "Its Fulani name, Gangirwal, translates to 'Mountain of Death' because of notoriously treacherous ravines and sheer cliff faces guarding the ascent."
     }
   ]
 }

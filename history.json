@@ -37,7 +37,8 @@
     "Turkmenistan",
     "Romania",
     "Bulgaria",
-    "Morocco"
+    "Morocco",
+    "Nigeria"
   ],
   "past_trivia": [
     {
@@ -568,17 +569,25 @@
       "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques.",
       "country": "Morocco",
       "date": "November 02, 2026"
+    },
+    {
+      "question": "Known locally as Gangirwal, or 'Mountain of Death', what 2,419-meter summit located in Gashaka-Gumti National Park is the highest peak in Nigeria and all of West Africa?",
+      "answer": "Chappal Waddi",
+      "stat_category": "Highest Elevation",
+      "fun_fact": "Its Fulani name, Gangirwal, translates to 'Mountain of Death' because of notoriously treacherous ravines and sheer cliff faces guarding the ascent.",
+      "country": "Nigeria",
+      "date": "November 03, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
-    "answer": "Tran",
-    "stat_category": "Lowest Recorded Temperature",
-    "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
-    "country": "Bulgaria",
-    "date": "November 01, 2026"
+    "question": "In Morocco's High Atlas mountains, which tiered 110-meter waterfalls take their name from the local Berber word for 'grinding grain,' a nod to the ancient water-powered olive mills at their crest?",
+    "answer": "Ouzoud Falls",
+    "stat_category": "Waterfalls",
+    "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques.",
+    "country": "Morocco",
+    "date": "November 02, 2026"
   },
-  "last_run_date": "November 01, 2026",
+  "last_run_date": "November 02, 2026",
   "schedule": {
     "2026-10-30": {
       "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
@@ -611,6 +620,14 @@
       "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques.",
       "country": "Morocco",
       "date": "November 02, 2026"
+    },
+    "2026-11-03": {
+      "question": "Known locally as Gangirwal, or 'Mountain of Death', what 2,419-meter summit located in Gashaka-Gumti National Park is the highest peak in Nigeria and all of West Africa?",
+      "answer": "Chappal Waddi",
+      "stat_category": "Highest Elevation",
+      "fun_fact": "Its Fulani name, Gangirwal, translates to 'Mountain of Death' because of notoriously treacherous ravines and sheer cliff faces guarding the ascent.",
+      "country": "Nigeria",
+      "date": "November 03, 2026"
     }
   }
 }
