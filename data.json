@@ -1,18 +1,11 @@
 {
-  "date": "November 03, 2026",
-  "question": "Known locally as Gangirwal, or 'Mountain of Death', what 2,419-meter summit located in Gashaka-Gumti National Park is the highest peak in Nigeria and all of West Africa?",
-  "answer": "Chappal Waddi",
-  "stat_category": "Highest Elevation",
-  "fun_fact": "Its Fulani name, Gangirwal, translates to 'Mountain of Death' because of notoriously treacherous ravines and sheer cliff faces guarding the ascent.",
-  "show_answer": true,
+  "date": "November 04, 2026",
+  "question": "Which vast sandstone plateau in southeastern Algeria, renowned for its prehistoric rock art, preserves dramatic striated pavements and tunnel valleys carved by a massive ice sheet during the Late Ordovician glaciation?",
+  "answer": "Tassili n'Ajjer",
+  "stat_category": "Physical Geography",
+  "fun_fact": "Around 440 million years ago, the South Pole was situated over North Africa, encasing parts of the modern-day Sahara Desert under a continental ice sheet.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-02",
-      "question": "In Morocco's High Atlas mountains, which tiered 110-meter waterfalls take their name from the local Berber word for 'grinding grain,' a nod to the ancient water-powered olive mills at their crest?",
-      "answer": "Ouzoud Falls",
-      "stat_category": "Waterfalls",
-      "fun_fact": "The lush, mist-filled canyon around Ouzoud Falls is home to free-roaming troops of endangered Barbary macaques."
-    },
     {
       "date": "2026-11-03",
       "question": "Known locally as Gangirwal, or 'Mountain of Death', what 2,419-meter summit located in Gashaka-Gumti National Park is the highest peak in Nigeria and all of West Africa?",
@@ -26,6 +19,13 @@
       "answer": "Tassili n'Ajjer",
       "stat_category": "Physical Geography",
       "fun_fact": "Around 440 million years ago, the South Pole was situated over North Africa, encasing parts of the modern-day Sahara Desert under a continental ice sheet."
+    },
+    {
+      "date": "2026-11-05",
+      "question": "Rising across western Ukraine, which unique range of limestone hills represents the world's only exposed inland barrier reef formed millions of years ago by marine bryozoans and algae?",
+      "answer": "Podilski Tovtry",
+      "stat_category": "reefs and marine life",
+      "fun_fact": "The Tovtry hills were formed roughly 15 to 20 million years ago along the warm Sarmatian Sea, leaving behind a 200-kilometer ridge composed entirely of fossilized marine life."
     }
   ]
 }
