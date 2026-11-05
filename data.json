@@ -4,7 +4,7 @@
   "answer": "Tassili n'Ajjer",
   "stat_category": "Physical Geography",
   "fun_fact": "Around 440 million years ago, the South Pole was situated over North Africa, encasing parts of the modern-day Sahara Desert under a continental ice sheet.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-03",
