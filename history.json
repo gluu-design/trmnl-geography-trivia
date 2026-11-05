@@ -40,7 +40,8 @@
     "Morocco",
     "Nigeria",
     "Algeria",
-    "Ukraine"
+    "Ukraine",
+    "Guinea"
   ],
   "past_trivia": [
     {
@@ -595,17 +596,25 @@
       "fun_fact": "The Tovtry hills were formed roughly 15 to 20 million years ago along the warm Sarmatian Sea, leaving behind a 200-kilometer ridge composed entirely of fossilized marine life.",
       "country": "Ukraine",
       "date": "November 05, 2026"
+    },
+    {
+      "question": "What highland sandstone plateau in central Guinea, deeply incised by steep river valleys, is known as the 'Water Tower of West Africa' for being the source of the Niger, Senegal, and Gambia rivers?",
+      "answer": "Fouta Djallon",
+      "stat_category": "Plateaus and Valleys",
+      "fun_fact": "On the plateau's northern edge lies Mount Loura, featuring a wind-eroded rock formation that resembles a profile of an elderly woman, known as the 'Dame de Mali'.",
+      "country": "Guinea",
+      "date": "November 06, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Which vast sandstone plateau in southeastern Algeria, renowned for its prehistoric rock art, preserves dramatic striated pavements and tunnel valleys carved by a massive ice sheet during the Late Ordovician glaciation?",
-    "answer": "Tassili n'Ajjer",
-    "stat_category": "Physical Geography",
-    "fun_fact": "Around 440 million years ago, the South Pole was situated over North Africa, encasing parts of the modern-day Sahara Desert under a continental ice sheet.",
-    "country": "Algeria",
-    "date": "November 04, 2026"
+    "question": "Rising across western Ukraine, which unique range of limestone hills represents the world's only exposed inland barrier reef formed millions of years ago by marine bryozoans and algae?",
+    "answer": "Podilski Tovtry",
+    "stat_category": "reefs and marine life",
+    "fun_fact": "The Tovtry hills were formed roughly 15 to 20 million years ago along the warm Sarmatian Sea, leaving behind a 200-kilometer ridge composed entirely of fossilized marine life.",
+    "country": "Ukraine",
+    "date": "November 05, 2026"
   },
-  "last_run_date": "November 04, 2026",
+  "last_run_date": "November 05, 2026",
   "schedule": {
     "2026-10-30": {
       "question": "Which vast Central Asian desert, whose name translates to 'Black Sand' in Turkic languages, covers nearly 70 percent of Turkmenistan's land area?",
@@ -662,6 +671,14 @@
       "fun_fact": "The Tovtry hills were formed roughly 15 to 20 million years ago along the warm Sarmatian Sea, leaving behind a 200-kilometer ridge composed entirely of fossilized marine life.",
       "country": "Ukraine",
       "date": "November 05, 2026"
+    },
+    "2026-11-06": {
+      "question": "What highland sandstone plateau in central Guinea, deeply incised by steep river valleys, is known as the 'Water Tower of West Africa' for being the source of the Niger, Senegal, and Gambia rivers?",
+      "answer": "Fouta Djallon",
+      "stat_category": "Plateaus and Valleys",
+      "fun_fact": "On the plateau's northern edge lies Mount Loura, featuring a wind-eroded rock formation that resembles a profile of an elderly woman, known as the 'Dame de Mali'.",
+      "country": "Guinea",
+      "date": "November 06, 2026"
     }
   }
 }
