@@ -1,18 +1,11 @@
 {
-  "date": "November 06, 2026",
-  "question": "What highland sandstone plateau in central Guinea, deeply incised by steep river valleys, is known as the 'Water Tower of West Africa' for being the source of the Niger, Senegal, and Gambia rivers?",
-  "answer": "Fouta Djallon",
-  "stat_category": "Plateaus and Valleys",
-  "fun_fact": "On the plateau's northern edge lies Mount Loura, featuring a wind-eroded rock formation that resembles a profile of an elderly woman, known as the 'Dame de Mali'.",
-  "show_answer": true,
+  "date": "November 07, 2026",
+  "question": "Which massive cave in Malaysia's Gunung Mulu National Park features a rock formation near its opening that casts an uncanny silhouette of Abraham Lincoln?",
+  "answer": "Deer Cave",
+  "stat_category": "Physical Geography",
+  "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-05",
-      "question": "Rising across western Ukraine, which unique range of limestone hills represents the world's only exposed inland barrier reef formed millions of years ago by marine bryozoans and algae?",
-      "answer": "Podilski Tovtry",
-      "stat_category": "reefs and marine life",
-      "fun_fact": "The Tovtry hills were formed roughly 15 to 20 million years ago along the warm Sarmatian Sea, leaving behind a 200-kilometer ridge composed entirely of fossilized marine life."
-    },
     {
       "date": "2026-11-06",
       "question": "What highland sandstone plateau in central Guinea, deeply incised by steep river valleys, is known as the 'Water Tower of West Africa' for being the source of the Niger, Senegal, and Gambia rivers?",
@@ -26,6 +19,13 @@
       "answer": "Deer Cave",
       "stat_category": "Physical Geography",
       "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks."
+    },
+    {
+      "date": "2026-11-08",
+      "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
+      "answer": "Karakoram Range",
+      "stat_category": "Glaciology",
+      "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns."
     }
   ]
 }
