@@ -4,7 +4,7 @@
   "answer": "Deer Cave",
   "stat_category": "Physical Geography",
   "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-06",
