@@ -1,18 +1,11 @@
 {
-  "date": "November 07, 2026",
-  "question": "Which massive cave in Malaysia's Gunung Mulu National Park features a rock formation near its opening that casts an uncanny silhouette of Abraham Lincoln?",
-  "answer": "Deer Cave",
-  "stat_category": "Physical Geography",
-  "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks.",
-  "show_answer": true,
+  "date": "November 08, 2026",
+  "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
+  "answer": "Karakoram Range",
+  "stat_category": "Glaciology",
+  "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-06",
-      "question": "What highland sandstone plateau in central Guinea, deeply incised by steep river valleys, is known as the 'Water Tower of West Africa' for being the source of the Niger, Senegal, and Gambia rivers?",
-      "answer": "Fouta Djallon",
-      "stat_category": "Plateaus and Valleys",
-      "fun_fact": "On the plateau's northern edge lies Mount Loura, featuring a wind-eroded rock formation that resembles a profile of an elderly woman, known as the 'Dame de Mali'."
-    },
     {
       "date": "2026-11-07",
       "question": "Which massive cave in Malaysia's Gunung Mulu National Park features a rock formation near its opening that casts an uncanny silhouette of Abraham Lincoln?",
@@ -26,6 +19,13 @@
       "answer": "Karakoram Range",
       "stat_category": "Glaciology",
       "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns."
+    },
+    {
+      "date": "2026-11-09",
+      "question": "Rising nearly 200 meters above the central plains of Sri Lanka, which ancient rock fortress and palace complex is renowned for its centuries-old graffiti on the 'Mirror Wall' and colossal carved lion paws?",
+      "answer": "Sigiriya",
+      "stat_category": "Ancient Architecture",
+      "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it."
     }
   ]
 }
