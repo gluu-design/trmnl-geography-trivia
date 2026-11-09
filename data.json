@@ -1,18 +1,11 @@
 {
-  "date": "November 08, 2026",
-  "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
-  "answer": "Karakoram Range",
-  "stat_category": "Glaciology",
-  "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns.",
-  "show_answer": true,
+  "date": "November 09, 2026",
+  "question": "Rising nearly 200 meters above the central plains of Sri Lanka, which ancient rock fortress and palace complex is renowned for its centuries-old graffiti on the 'Mirror Wall' and colossal carved lion paws?",
+  "answer": "Sigiriya",
+  "stat_category": "Ancient Architecture",
+  "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-07",
-      "question": "Which massive cave in Malaysia's Gunung Mulu National Park features a rock formation near its opening that casts an uncanny silhouette of Abraham Lincoln?",
-      "answer": "Deer Cave",
-      "stat_category": "Physical Geography",
-      "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks."
-    },
     {
       "date": "2026-11-08",
       "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
@@ -26,6 +19,13 @@
       "answer": "Sigiriya",
       "stat_category": "Ancient Architecture",
       "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it."
+    },
+    {
+      "date": "2026-11-10",
+      "question": "Which East African national park preserves one of the continent's oldest montane rainforests and features a 70-meter-high canopy walkway suspended across a ridge dividing the Congo and Nile river basins?",
+      "answer": "Nyungwe Forest National Park",
+      "stat_category": "Physical Geography",
+      "fun_fact": "Nyungwe Forest supplies roughly 70 percent of Rwanda's freshwater and is one of the continent's oldest surviving rainforests."
     }
   ]
 }

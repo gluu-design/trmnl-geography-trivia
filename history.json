@@ -44,7 +44,8 @@
     "Guinea",
     "Malaysia",
     "Pakistan",
-    "Sri Lanka"
+    "Sri Lanka",
+    "Rwanda"
   ],
   "past_trivia": [
     {
@@ -631,26 +632,26 @@
       "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it.",
       "country": "Sri Lanka",
       "date": "November 09, 2026"
+    },
+    {
+      "question": "Which East African national park preserves one of the continent's oldest montane rainforests and features a 70-meter-high canopy walkway suspended across a ridge dividing the Congo and Nile river basins?",
+      "answer": "Nyungwe Forest National Park",
+      "stat_category": "Physical Geography",
+      "fun_fact": "Nyungwe Forest supplies roughly 70 percent of Rwanda's freshwater and is one of the continent's oldest surviving rainforests.",
+      "country": "Rwanda",
+      "date": "November 10, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
-    "answer": "Karakoram Range",
-    "stat_category": "Glaciology",
-    "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns.",
-    "country": "Pakistan",
-    "date": "November 08, 2026"
+    "question": "Rising nearly 200 meters above the central plains of Sri Lanka, which ancient rock fortress and palace complex is renowned for its centuries-old graffiti on the 'Mirror Wall' and colossal carved lion paws?",
+    "answer": "Sigiriya",
+    "stat_category": "Ancient Architecture",
+    "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it.",
+    "country": "Sri Lanka",
+    "date": "November 09, 2026"
   },
-  "last_run_date": "November 08, 2026",
+  "last_run_date": "November 09, 2026",
   "schedule": {
-    "2026-11-01": {
-      "question": "Known as the country's 'Cold Pole', which western Bulgarian town recorded the national all-time lowest temperature at -38.3 °C (-36.9 °F) during the winter of 1947?",
-      "answer": "Tran",
-      "stat_category": "Lowest Recorded Temperature",
-      "fun_fact": "Despite Tran's record-shattering -38.3 °C freeze in 1947, summer temperatures in the very same valley can occasionally rise above 35 °C (95 °F).",
-      "country": "Bulgaria",
-      "date": "November 01, 2026"
-    },
     "2026-11-02": {
       "question": "In Morocco's High Atlas mountains, which tiered 110-meter waterfalls take their name from the local Berber word for 'grinding grain,' a nod to the ancient water-powered olive mills at their crest?",
       "answer": "Ouzoud Falls",
@@ -714,6 +715,14 @@
       "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it.",
       "country": "Sri Lanka",
       "date": "November 09, 2026"
+    },
+    "2026-11-10": {
+      "question": "Which East African national park preserves one of the continent's oldest montane rainforests and features a 70-meter-high canopy walkway suspended across a ridge dividing the Congo and Nile river basins?",
+      "answer": "Nyungwe Forest National Park",
+      "stat_category": "Physical Geography",
+      "fun_fact": "Nyungwe Forest supplies roughly 70 percent of Rwanda's freshwater and is one of the continent's oldest surviving rainforests.",
+      "country": "Rwanda",
+      "date": "November 10, 2026"
     }
   }
 }
