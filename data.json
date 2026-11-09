@@ -4,7 +4,7 @@
   "answer": "Karakoram Range",
   "stat_category": "Glaciology",
   "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-07",
