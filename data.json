@@ -1,18 +1,11 @@
 {
-  "date": "November 11, 2026",
-  "question": "In August 2019, researchers and locals in west-central Iceland held a funeral and installed a bronze memorial plaque titled 'A letter to the future' to commemorate which melted glacier?",
-  "answer": "Okjökull",
-  "stat_category": "Glaciology",
-  "fun_fact": "The glacier's memorial plaque carries a solemn warning reading '415 ppm CO2', recording the atmospheric carbon dioxide level measured in May 2019.",
-  "show_answer": true,
+  "date": "November 12, 2026",
+  "question": "Which remote inhabited Japanese volcanic island in the Philippine Sea is famous for its dramatic double caldera, featuring a central active cone named Maruyama nested within a larger crater?",
+  "answer": "Aogashima",
+  "stat_category": "Islands",
+  "fun_fact": "Despite being an isolated volcanic island over 350 km south of mainland Tokyo, Aogashima is officially administered as part of the Tokyo metropolis.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-10",
-      "question": "Which East African national park preserves one of the continent's oldest montane rainforests and features a 70-meter-high canopy walkway suspended across a ridge dividing the Congo and Nile river basins?",
-      "answer": "Nyungwe Forest National Park",
-      "stat_category": "Physical Geography",
-      "fun_fact": "Nyungwe Forest supplies roughly 70 percent of Rwanda's freshwater and is one of the continent's oldest surviving rainforests."
-    },
     {
       "date": "2026-11-11",
       "question": "In August 2019, researchers and locals in west-central Iceland held a funeral and installed a bronze memorial plaque titled 'A letter to the future' to commemorate which melted glacier?",
@@ -26,6 +19,13 @@
       "answer": "Aogashima",
       "stat_category": "Islands",
       "fun_fact": "Despite being an isolated volcanic island over 350 km south of mainland Tokyo, Aogashima is officially administered as part of the Tokyo metropolis."
+    },
+    {
+      "date": "2026-11-13",
+      "question": "Which 8th-century rock-cut monument in Maharashtra, India, is celebrated as the world's largest monolithic structure carved vertically downwards from a single basalt cliff face?",
+      "answer": "Kailasa Temple",
+      "stat_category": "famous landmarks",
+      "fun_fact": "Sculptors removed roughly 200,000 tonnes of volcanic rock from the top down, leaving no room for structural error."
     }
   ]
 }
