@@ -4,7 +4,7 @@
   "answer": "Okjökull",
   "stat_category": "Glaciology",
   "fun_fact": "The glacier's memorial plaque carries a solemn warning reading '415 ppm CO2', recording the atmospheric carbon dioxide level measured in May 2019.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-10",
