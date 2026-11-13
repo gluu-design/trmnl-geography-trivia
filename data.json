@@ -4,7 +4,7 @@
   "answer": "Kailasa Temple",
   "stat_category": "famous landmarks",
   "fun_fact": "Sculptors removed roughly 200,000 tonnes of volcanic rock from the top down, leaving no room for structural error.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-12",
