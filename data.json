@@ -4,7 +4,7 @@
   "answer": "Aogashima",
   "stat_category": "Islands",
   "fun_fact": "Despite being an isolated volcanic island over 350 km south of mainland Tokyo, Aogashima is officially administered as part of the Tokyo metropolis.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-11",
