@@ -1,18 +1,11 @@
 {
-  "date": "November 12, 2026",
-  "question": "Which remote inhabited Japanese volcanic island in the Philippine Sea is famous for its dramatic double caldera, featuring a central active cone named Maruyama nested within a larger crater?",
-  "answer": "Aogashima",
-  "stat_category": "Islands",
-  "fun_fact": "Despite being an isolated volcanic island over 350 km south of mainland Tokyo, Aogashima is officially administered as part of the Tokyo metropolis.",
-  "show_answer": true,
+  "date": "November 13, 2026",
+  "question": "Which 8th-century rock-cut monument in Maharashtra, India, is celebrated as the world's largest monolithic structure carved vertically downwards from a single basalt cliff face?",
+  "answer": "Kailasa Temple",
+  "stat_category": "famous landmarks",
+  "fun_fact": "Sculptors removed roughly 200,000 tonnes of volcanic rock from the top down, leaving no room for structural error.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-11",
-      "question": "In August 2019, researchers and locals in west-central Iceland held a funeral and installed a bronze memorial plaque titled 'A letter to the future' to commemorate which melted glacier?",
-      "answer": "Okjökull",
-      "stat_category": "Glaciology",
-      "fun_fact": "The glacier's memorial plaque carries a solemn warning reading '415 ppm CO2', recording the atmospheric carbon dioxide level measured in May 2019."
-    },
     {
       "date": "2026-11-12",
       "question": "Which remote inhabited Japanese volcanic island in the Philippine Sea is famous for its dramatic double caldera, featuring a central active cone named Maruyama nested within a larger crater?",
@@ -26,6 +19,13 @@
       "answer": "Kailasa Temple",
       "stat_category": "famous landmarks",
       "fun_fact": "Sculptors removed roughly 200,000 tonnes of volcanic rock from the top down, leaving no room for structural error."
+    },
+    {
+      "date": "2026-11-14",
+      "question": "Which Kenyan national park, renowned for its dramatic red cliffs, gorges, and geothermal plumes, directly inspired the animated landscapes of Pride Rock in Disney's 1994 film 'The Lion King'?",
+      "answer": "Hell's Gate National Park",
+      "stat_category": "National Parks",
+      "fun_fact": "Hell's Gate is one of very few Kenyan national parks where visitors are allowed to explore on foot or ride bicycles alongside grazing zebras and giraffes."
     }
   ]
 }
