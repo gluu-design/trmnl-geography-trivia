@@ -4,7 +4,7 @@
   "answer": "Hell's Gate National Park",
   "stat_category": "National Parks",
   "fun_fact": "Hell's Gate is one of very few Kenyan national parks where visitors are allowed to explore on foot or ride bicycles alongside grazing zebras and giraffes.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-13",
