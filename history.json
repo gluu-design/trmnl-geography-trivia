@@ -46,7 +46,8 @@
     "Pakistan",
     "Sri Lanka",
     "Rwanda",
-    "Japan"
+    "Japan",
+    "Iran"
   ],
   "past_trivia": [
     {
@@ -681,26 +682,26 @@
       "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
       "country": "Venezuela",
       "date": "November 15, 2026"
+    },
+    {
+      "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
+      "answer": "Clarence Strait (Khuran Strait)",
+      "stat_category": "Straits & Canals",
+      "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
+      "country": "Iran",
+      "date": "November 16, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Which Kenyan national park, renowned for its dramatic red cliffs, gorges, and geothermal plumes, directly inspired the animated landscapes of Pride Rock in Disney's 1994 film 'The Lion King'?",
-    "answer": "Hell's Gate National Park",
-    "stat_category": "National Parks",
-    "fun_fact": "Hell's Gate is one of very few Kenyan national parks where visitors are allowed to explore on foot or ride bicycles alongside grazing zebras and giraffes.",
-    "country": "Kenya",
-    "date": "November 14, 2026"
+    "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
+    "answer": "Humboldt Glacier",
+    "stat_category": "Physical Geography",
+    "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
+    "country": "Venezuela",
+    "date": "November 15, 2026"
   },
-  "last_run_date": "November 14, 2026",
+  "last_run_date": "November 15, 2026",
   "schedule": {
-    "2026-11-07": {
-      "question": "Which massive cave in Malaysia's Gunung Mulu National Park features a rock formation near its opening that casts an uncanny silhouette of Abraham Lincoln?",
-      "answer": "Deer Cave",
-      "stat_category": "Physical Geography",
-      "fun_fact": "Deer Cave is home to over three million bats whose dusk departure forms giant spiraling ribbons in the sky to deter predatory bat hawks.",
-      "country": "Malaysia",
-      "date": "November 07, 2026"
-    },
     "2026-11-08": {
       "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
       "answer": "Karakoram Range",
@@ -764,6 +765,14 @@
       "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
       "country": "Venezuela",
       "date": "November 15, 2026"
+    },
+    "2026-11-16": {
+      "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
+      "answer": "Clarence Strait (Khuran Strait)",
+      "stat_category": "Straits & Canals",
+      "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
+      "country": "Iran",
+      "date": "November 16, 2026"
     }
   }
 }
