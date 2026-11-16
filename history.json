@@ -690,26 +690,26 @@
       "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
       "country": "Iran",
       "date": "November 16, 2026"
+    },
+    {
+      "question": "Which small town in the Salta Province of Argentina holds the official meteorological record for the highest temperature ever measured in South America, reaching 48.9 °C (120.0 °F)?",
+      "answer": "Rivadavia",
+      "stat_category": "Highest Temperature",
+      "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
+      "country": "Argentina",
+      "date": "November 17, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
-    "answer": "Humboldt Glacier",
-    "stat_category": "Physical Geography",
-    "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
-    "country": "Venezuela",
-    "date": "November 15, 2026"
+    "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
+    "answer": "Clarence Strait (Khuran Strait)",
+    "stat_category": "Straits & Canals",
+    "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
+    "country": "Iran",
+    "date": "November 16, 2026"
   },
-  "last_run_date": "November 15, 2026",
+  "last_run_date": "November 16, 2026",
   "schedule": {
-    "2026-11-08": {
-      "question": "Glaciologists coined an 'anomaly' named after which mountain range spanning northern Pakistan, describing a rare phenomenon where its glaciers have remained stable or even grown in mass?",
-      "answer": "Karakoram Range",
-      "stat_category": "Glaciology",
-      "fun_fact": "Unlike most retreating ice masses globally, many Karakoram glaciers advance due to unique localized wind and precipitation patterns.",
-      "country": "Pakistan",
-      "date": "November 08, 2026"
-    },
     "2026-11-09": {
       "question": "Rising nearly 200 meters above the central plains of Sri Lanka, which ancient rock fortress and palace complex is renowned for its centuries-old graffiti on the 'Mirror Wall' and colossal carved lion paws?",
       "answer": "Sigiriya",
@@ -773,6 +773,14 @@
       "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
       "country": "Iran",
       "date": "November 16, 2026"
+    },
+    "2026-11-17": {
+      "question": "Which small town in the Salta Province of Argentina holds the official meteorological record for the highest temperature ever measured in South America, reaching 48.9 °C (120.0 °F)?",
+      "answer": "Rivadavia",
+      "stat_category": "Highest Temperature",
+      "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
+      "country": "Argentina",
+      "date": "November 17, 2026"
     }
   }
 }

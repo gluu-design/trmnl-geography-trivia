@@ -1,18 +1,11 @@
 {
-  "date": "November 15, 2026",
-  "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
-  "answer": "Humboldt Glacier",
-  "stat_category": "Physical Geography",
-  "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
-  "show_answer": true,
+  "date": "November 16, 2026",
+  "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
+  "answer": "Clarence Strait (Khuran Strait)",
+  "stat_category": "Straits & Canals",
+  "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-14",
-      "question": "Which Kenyan national park, renowned for its dramatic red cliffs, gorges, and geothermal plumes, directly inspired the animated landscapes of Pride Rock in Disney's 1994 film 'The Lion King'?",
-      "answer": "Hell's Gate National Park",
-      "stat_category": "National Parks",
-      "fun_fact": "Hell's Gate is one of very few Kenyan national parks where visitors are allowed to explore on foot or ride bicycles alongside grazing zebras and giraffes."
-    },
     {
       "date": "2026-11-15",
       "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
@@ -26,6 +19,13 @@
       "answer": "Clarence Strait (Khuran Strait)",
       "stat_category": "Straits & Canals",
       "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater."
+    },
+    {
+      "date": "2026-11-17",
+      "question": "Which small town in the Salta Province of Argentina holds the official meteorological record for the highest temperature ever measured in South America, reaching 48.9 °C (120.0 °F)?",
+      "answer": "Rivadavia",
+      "stat_category": "Highest Temperature",
+      "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F)."
     }
   ]
 }
