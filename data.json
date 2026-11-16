@@ -4,7 +4,7 @@
   "answer": "Humboldt Glacier",
   "stat_category": "Physical Geography",
   "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-14",
