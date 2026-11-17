@@ -4,7 +4,7 @@
   "answer": "Clarence Strait (Khuran Strait)",
   "stat_category": "Straits & Canals",
   "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-15",
