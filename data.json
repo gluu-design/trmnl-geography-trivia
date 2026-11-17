@@ -1,18 +1,11 @@
 {
-  "date": "November 16, 2026",
-  "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
-  "answer": "Clarence Strait (Khuran Strait)",
-  "stat_category": "Straits & Canals",
-  "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
-  "show_answer": true,
+  "date": "November 17, 2026",
+  "question": "Which small town in the Salta Province of Argentina holds the official meteorological record for the highest temperature ever measured in South America, reaching 48.9 °C (120.0 °F)?",
+  "answer": "Rivadavia",
+  "stat_category": "Highest Temperature",
+  "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-15",
-      "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
-      "answer": "Humboldt Glacier",
-      "stat_category": "Physical Geography",
-      "fun_fact": "In late 2023, Venezuela's government attempted to cover the melting glacier with geotextile thermal blankets to preserve it."
-    },
     {
       "date": "2026-11-16",
       "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
@@ -26,6 +19,13 @@
       "answer": "Rivadavia",
       "stat_category": "Highest Temperature",
       "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F)."
+    },
+    {
+      "date": "2026-11-18",
+      "question": "Kept secret by local villagers for centuries due to a legend about a protective blond mermaid, which towering 771-meter waterfall in northern Peru was only revealed to the outside world in 2006?",
+      "answer": "Gocta Waterfall",
+      "stat_category": "Waterfalls",
+      "fun_fact": "Locals avoided the falls fearing a siren's curse, keeping the world's 16th-tallest waterfall hidden from modern cartography until 2006."
     }
   ]
 }

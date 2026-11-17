@@ -47,7 +47,8 @@
     "Sri Lanka",
     "Rwanda",
     "Japan",
-    "Iran"
+    "Iran",
+    "Peru"
   ],
   "past_trivia": [
     {
@@ -698,26 +699,26 @@
       "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
       "country": "Argentina",
       "date": "November 17, 2026"
+    },
+    {
+      "question": "Kept secret by local villagers for centuries due to a legend about a protective blond mermaid, which towering 771-meter waterfall in northern Peru was only revealed to the outside world in 2006?",
+      "answer": "Gocta Waterfall",
+      "stat_category": "Waterfalls",
+      "fun_fact": "Locals avoided the falls fearing a siren's curse, keeping the world's 16th-tallest waterfall hidden from modern cartography until 2006.",
+      "country": "Peru",
+      "date": "November 18, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Separating Qeshm Island from the Iranian mainland, which shallow strait is home to the Hara Biosphere Reserve, the largest mangrove wetland in the Persian Gulf?",
-    "answer": "Clarence Strait (Khuran Strait)",
-    "stat_category": "Straits & Canals",
-    "fun_fact": "The Hara mangroves within the strait are periodically submerged by high tides, creating a floating forest capable of thriving in hypersaline seawater.",
-    "country": "Iran",
-    "date": "November 16, 2026"
+    "question": "Which small town in the Salta Province of Argentina holds the official meteorological record for the highest temperature ever measured in South America, reaching 48.9 °C (120.0 °F)?",
+    "answer": "Rivadavia",
+    "stat_category": "Highest Temperature",
+    "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
+    "country": "Argentina",
+    "date": "November 17, 2026"
   },
-  "last_run_date": "November 16, 2026",
+  "last_run_date": "November 17, 2026",
   "schedule": {
-    "2026-11-09": {
-      "question": "Rising nearly 200 meters above the central plains of Sri Lanka, which ancient rock fortress and palace complex is renowned for its centuries-old graffiti on the 'Mirror Wall' and colossal carved lion paws?",
-      "answer": "Sigiriya",
-      "stat_category": "Ancient Architecture",
-      "fun_fact": "Sigiriya's Mirror Wall was polished with egg whites, honey, and lime so thoroughly that King Kashyapa could clearly see his reflection as he walked beside it.",
-      "country": "Sri Lanka",
-      "date": "November 09, 2026"
-    },
     "2026-11-10": {
       "question": "Which East African national park preserves one of the continent's oldest montane rainforests and features a 70-meter-high canopy walkway suspended across a ridge dividing the Congo and Nile river basins?",
       "answer": "Nyungwe Forest National Park",
@@ -781,6 +782,14 @@
       "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
       "country": "Argentina",
       "date": "November 17, 2026"
+    },
+    "2026-11-18": {
+      "question": "Kept secret by local villagers for centuries due to a legend about a protective blond mermaid, which towering 771-meter waterfall in northern Peru was only revealed to the outside world in 2006?",
+      "answer": "Gocta Waterfall",
+      "stat_category": "Waterfalls",
+      "fun_fact": "Locals avoided the falls fearing a siren's curse, keeping the world's 16th-tallest waterfall hidden from modern cartography until 2006.",
+      "country": "Peru",
+      "date": "November 18, 2026"
     }
   }
 }
