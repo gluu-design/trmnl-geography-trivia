@@ -4,7 +4,7 @@
   "answer": "Rivadavia",
   "stat_category": "Highest Temperature",
   "fun_fact": "Located in the Gran Chaco region, Rivadavia sits inside South America's 'Hot Pole', where summer temperatures routinely exceed 40 °C (104 °F).",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-16",
