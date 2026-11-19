@@ -4,7 +4,7 @@
   "answer": "Gocta Waterfall",
   "stat_category": "Waterfalls",
   "fun_fact": "Locals avoided the falls fearing a siren's curse, keeping the world's 16th-tallest waterfall hidden from modern cartography until 2006.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-17",
