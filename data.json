@@ -4,7 +4,7 @@
   "answer": "Cuevas de Talgua",
   "stat_category": "caves",
   "fun_fact": "Dripping water covered the centuries-old human bones in crystalline calcite, making them glitter eerily under torchlight.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-18",
