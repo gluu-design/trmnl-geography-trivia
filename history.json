@@ -725,26 +725,26 @@
       "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
       "country": "United States",
       "date": "November 20, 2026"
+    },
+    {
+      "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
+      "answer": "Vestfjorddalen",
+      "stat_category": "Physical Geography",
+      "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
+      "country": "Norway",
+      "date": "November 21, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Which limestone cave system located near Catacamas, Honduras, is famously known as the 'Cave of the Glowing Skulls' due to calcite mineral deposits encrusting ancient human remains?",
-    "answer": "Cuevas de Talgua",
-    "stat_category": "caves",
-    "fun_fact": "Dripping water covered the centuries-old human bones in crystalline calcite, making them glitter eerily under torchlight.",
-    "country": "Honduras",
-    "date": "November 19, 2026"
+    "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
+    "answer": "Point Roberts",
+    "stat_category": "borders and enclaves",
+    "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
+    "country": "United States",
+    "date": "November 20, 2026"
   },
-  "last_run_date": "November 19, 2026",
+  "last_run_date": "November 20, 2026",
   "schedule": {
-    "2026-11-12": {
-      "question": "Which remote inhabited Japanese volcanic island in the Philippine Sea is famous for its dramatic double caldera, featuring a central active cone named Maruyama nested within a larger crater?",
-      "answer": "Aogashima",
-      "stat_category": "Islands",
-      "fun_fact": "Despite being an isolated volcanic island over 350 km south of mainland Tokyo, Aogashima is officially administered as part of the Tokyo metropolis.",
-      "country": "Japan",
-      "date": "November 12, 2026"
-    },
     "2026-11-13": {
       "question": "Which 8th-century rock-cut monument in Maharashtra, India, is celebrated as the world's largest monolithic structure carved vertically downwards from a single basalt cliff face?",
       "answer": "Kailasa Temple",
@@ -808,6 +808,14 @@
       "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
       "country": "United States",
       "date": "November 20, 2026"
+    },
+    "2026-11-21": {
+      "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
+      "answer": "Vestfjorddalen",
+      "stat_category": "Physical Geography",
+      "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
+      "country": "Norway",
+      "date": "November 21, 2026"
     }
   }
 }
