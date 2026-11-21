@@ -4,7 +4,7 @@
   "answer": "Vestfjorddalen",
   "stat_category": "Physical Geography",
   "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-20",
