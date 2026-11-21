@@ -4,7 +4,7 @@
   "answer": "Point Roberts",
   "stat_category": "borders and enclaves",
   "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-19",
