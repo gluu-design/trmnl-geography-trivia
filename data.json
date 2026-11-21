@@ -1,18 +1,11 @@
 {
-  "date": "November 20, 2026",
-  "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
-  "answer": "Point Roberts",
-  "stat_category": "borders and enclaves",
-  "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
-  "show_answer": true,
+  "date": "November 21, 2026",
+  "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
+  "answer": "Vestfjorddalen",
+  "stat_category": "Physical Geography",
+  "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-19",
-      "question": "Which limestone cave system located near Catacamas, Honduras, is famously known as the 'Cave of the Glowing Skulls' due to calcite mineral deposits encrusting ancient human remains?",
-      "answer": "Cuevas de Talgua",
-      "stat_category": "caves",
-      "fun_fact": "Dripping water covered the centuries-old human bones in crystalline calcite, making them glitter eerily under torchlight."
-    },
     {
       "date": "2026-11-20",
       "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
@@ -26,6 +19,13 @@
       "answer": "Vestfjorddalen",
       "stat_category": "Physical Geography",
       "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized."
+    },
+    {
+      "date": "2026-11-22",
+      "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
+      "answer": "Lake Kaali",
+      "stat_category": "Lakes",
+      "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling."
     }
   ]
 }

@@ -50,7 +50,8 @@
     "Iran",
     "Peru",
     "Honduras",
-    "United States"
+    "United States",
+    "Estonia"
   ],
   "past_trivia": [
     {
@@ -733,26 +734,26 @@
       "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
       "country": "Norway",
       "date": "November 21, 2026"
+    },
+    {
+      "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
+      "answer": "Lake Kaali",
+      "stat_category": "Lakes",
+      "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
+      "country": "Estonia",
+      "date": "November 22, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
-    "answer": "Point Roberts",
-    "stat_category": "borders and enclaves",
-    "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
-    "country": "United States",
-    "date": "November 20, 2026"
+    "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
+    "answer": "Vestfjorddalen",
+    "stat_category": "Physical Geography",
+    "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
+    "country": "Norway",
+    "date": "November 21, 2026"
   },
-  "last_run_date": "November 20, 2026",
+  "last_run_date": "November 21, 2026",
   "schedule": {
-    "2026-11-13": {
-      "question": "Which 8th-century rock-cut monument in Maharashtra, India, is celebrated as the world's largest monolithic structure carved vertically downwards from a single basalt cliff face?",
-      "answer": "Kailasa Temple",
-      "stat_category": "famous landmarks",
-      "fun_fact": "Sculptors removed roughly 200,000 tonnes of volcanic rock from the top down, leaving no room for structural error.",
-      "country": "India",
-      "date": "November 13, 2026"
-    },
     "2026-11-14": {
       "question": "Which Kenyan national park, renowned for its dramatic red cliffs, gorges, and geothermal plumes, directly inspired the animated landscapes of Pride Rock in Disney's 1994 film 'The Lion King'?",
       "answer": "Hell's Gate National Park",
@@ -816,6 +817,14 @@
       "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
       "country": "Norway",
       "date": "November 21, 2026"
+    },
+    "2026-11-22": {
+      "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
+      "answer": "Lake Kaali",
+      "stat_category": "Lakes",
+      "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
+      "country": "Estonia",
+      "date": "November 22, 2026"
     }
   }
 }
