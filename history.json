@@ -51,7 +51,8 @@
     "Peru",
     "Honduras",
     "United States",
-    "Estonia"
+    "Estonia",
+    "Afghanistan"
   ],
   "past_trivia": [
     {
@@ -742,26 +743,26 @@
       "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
       "country": "Estonia",
       "date": "November 22, 2026"
+    },
+    {
+      "question": "Covering roughly 150,000 square kilometers across Helmand and Nimruz provinces, which vast arid plateau in southwestern Afghanistan has a Dari name that translates to the 'Desert of Death'?",
+      "answer": "Dasht-e Margo",
+      "stat_category": "Deserts",
+      "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin.",
+      "country": "Afghanistan",
+      "date": "November 23, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
-    "answer": "Vestfjorddalen",
-    "stat_category": "Physical Geography",
-    "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
-    "country": "Norway",
-    "date": "November 21, 2026"
+    "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
+    "answer": "Lake Kaali",
+    "stat_category": "Lakes",
+    "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
+    "country": "Estonia",
+    "date": "November 22, 2026"
   },
-  "last_run_date": "November 21, 2026",
+  "last_run_date": "November 22, 2026",
   "schedule": {
-    "2026-11-14": {
-      "question": "Which Kenyan national park, renowned for its dramatic red cliffs, gorges, and geothermal plumes, directly inspired the animated landscapes of Pride Rock in Disney's 1994 film 'The Lion King'?",
-      "answer": "Hell's Gate National Park",
-      "stat_category": "National Parks",
-      "fun_fact": "Hell's Gate is one of very few Kenyan national parks where visitors are allowed to explore on foot or ride bicycles alongside grazing zebras and giraffes.",
-      "country": "Kenya",
-      "date": "November 14, 2026"
-    },
     "2026-11-15": {
       "question": "Which shrinking body of ice, located in the Sierra Nevada de Mérida, was officially reclassified as an ice field in 2024, leaving Venezuela without any active glaciers?",
       "answer": "Humboldt Glacier",
@@ -825,6 +826,14 @@
       "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
       "country": "Estonia",
       "date": "November 22, 2026"
+    },
+    "2026-11-23": {
+      "question": "Covering roughly 150,000 square kilometers across Helmand and Nimruz provinces, which vast arid plateau in southwestern Afghanistan has a Dari name that translates to the 'Desert of Death'?",
+      "answer": "Dasht-e Margo",
+      "stat_category": "Deserts",
+      "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin.",
+      "country": "Afghanistan",
+      "date": "November 23, 2026"
     }
   }
 }

@@ -1,18 +1,11 @@
 {
-  "date": "November 21, 2026",
-  "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
-  "answer": "Vestfjorddalen",
-  "stat_category": "Physical Geography",
-  "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized.",
-  "show_answer": true,
+  "date": "November 22, 2026",
+  "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
+  "answer": "Lake Kaali",
+  "stat_category": "Lakes",
+  "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-20",
-      "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
-      "answer": "Point Roberts",
-      "stat_category": "borders and enclaves",
-      "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington."
-    },
     {
       "date": "2026-11-21",
       "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
@@ -26,6 +19,13 @@
       "answer": "Lake Kaali",
       "stat_category": "Lakes",
       "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling."
+    },
+    {
+      "date": "2026-11-23",
+      "question": "Covering roughly 150,000 square kilometers across Helmand and Nimruz provinces, which vast arid plateau in southwestern Afghanistan has a Dari name that translates to the 'Desert of Death'?",
+      "answer": "Dasht-e Margo",
+      "stat_category": "Deserts",
+      "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin."
     }
   ]
 }
