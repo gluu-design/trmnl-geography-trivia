@@ -1,18 +1,11 @@
 {
-  "date": "November 22, 2026",
-  "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
-  "answer": "Lake Kaali",
-  "stat_category": "Lakes",
-  "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
-  "show_answer": true,
+  "date": "November 23, 2026",
+  "question": "Covering roughly 150,000 square kilometers across Helmand and Nimruz provinces, which vast arid plateau in southwestern Afghanistan has a Dari name that translates to the 'Desert of Death'?",
+  "answer": "Dasht-e Margo",
+  "stat_category": "Deserts",
+  "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-21",
-      "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
-      "answer": "Vestfjorddalen",
-      "stat_category": "Physical Geography",
-      "fun_fact": "The idea of using mirrors to illuminate the sun-starved valley was first proposed in 1913 by town founder Sam Eyde, but it took exactly a century to finally be realized."
-    },
     {
       "date": "2026-11-22",
       "question": "Which circular lake on the Estonian island of Saaremaa fills a crater created by a meteorite impact around 3,500 years ago?",
@@ -26,6 +19,13 @@
       "answer": "Dasht-e Margo",
       "stat_category": "Deserts",
       "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin."
+    },
+    {
+      "date": "2026-11-24",
+      "question": "Under the 1858 Cañas-Jerez Treaty, what river forms a significant portion of the Costa Rica–Nicaragua border, with the boundary unusually set on the southern bank rather than midstream?",
+      "answer": "San Juan River",
+      "stat_category": "Borders & Boundaries",
+      "fun_fact": "Although Nicaragua holds full sovereignty over the river's waters, Costa Rica retains perpetual treaty rights to navigate it for commercial trade without paying duties."
     }
   ]
 }
