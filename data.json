@@ -4,7 +4,7 @@
   "answer": "Lake Kaali",
   "stat_category": "Lakes",
   "fun_fact": "The blast energy was comparable to the Hiroshima bomb, and the fiery event likely inspired Finnish and Norse legends of the Sun falling.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-21",
