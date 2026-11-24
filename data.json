@@ -4,7 +4,7 @@
   "answer": "Dasht-e Margo",
   "stat_category": "Deserts",
   "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-22",
