@@ -4,7 +4,7 @@
   "answer": "San Juan River",
   "stat_category": "Borders & Boundaries",
   "fun_fact": "Although Nicaragua holds full sovereignty over the river's waters, Costa Rica retains perpetual treaty rights to navigate it for commercial trade without paying duties.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-23",
