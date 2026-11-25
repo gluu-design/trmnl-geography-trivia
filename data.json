@@ -1,18 +1,11 @@
 {
-  "date": "November 24, 2026",
-  "question": "Under the 1858 Cañas-Jerez Treaty, what river forms a significant portion of the Costa Rica–Nicaragua border, with the boundary unusually set on the southern bank rather than midstream?",
-  "answer": "San Juan River",
-  "stat_category": "Borders & Boundaries",
-  "fun_fact": "Although Nicaragua holds full sovereignty over the river's waters, Costa Rica retains perpetual treaty rights to navigate it for commercial trade without paying duties.",
-  "show_answer": true,
+  "date": "November 25, 2026",
+  "question": "Which lake in Kazakhstan's Tian Shan mountains was formed by a 1911 earthquake-triggered landslide, creating a sunken forest of spruce trees that still project from its turquoise water?",
+  "answer": "Lake Kaindy",
+  "stat_category": "Physical Geography",
+  "fun_fact": "Submerged over a century ago, the underwater needles of the spruce trees remain remarkably preserved due to frigid alpine water temperatures.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-23",
-      "question": "Covering roughly 150,000 square kilometers across Helmand and Nimruz provinces, which vast arid plateau in southwestern Afghanistan has a Dari name that translates to the 'Desert of Death'?",
-      "answer": "Dasht-e Margo",
-      "stat_category": "Deserts",
-      "fun_fact": "Despite its lethal name, Dasht-e Margo contains ancient ruins of walled cities and canal networks from medieval civilizations along the Helmand River basin."
-    },
     {
       "date": "2026-11-24",
       "question": "Under the 1858 Cañas-Jerez Treaty, what river forms a significant portion of the Costa Rica–Nicaragua border, with the boundary unusually set on the southern bank rather than midstream?",
@@ -26,6 +19,13 @@
       "answer": "Lake Kaindy",
       "stat_category": "Physical Geography",
       "fun_fact": "Submerged over a century ago, the underwater needles of the spruce trees remain remarkably preserved due to frigid alpine water temperatures."
+    },
+    {
+      "date": "2026-11-26",
+      "question": "Which active stratovolcano, the highest peak in Cape Verde, features a community inside its vast caldera that famously cultivates grapes in volcanic ash to produce prized wine?",
+      "answer": "Pico do Fogo",
+      "stat_category": "Mountains",
+      "fun_fact": "Despite devastating eruptions in 1995 and 2014, local vintners consistently return to the caldera floor to cultivate vines in the mineral-rich volcanic ash."
     }
   ]
 }
