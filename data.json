@@ -4,7 +4,7 @@
   "answer": "Lake Kaindy",
   "stat_category": "Physical Geography",
   "fun_fact": "Submerged over a century ago, the underwater needles of the spruce trees remain remarkably preserved due to frigid alpine water temperatures.",
-  "show_answer": false,
+  "show_answer": true,
   "geo_days": [
     {
       "date": "2026-11-24",
