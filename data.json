@@ -1,18 +1,11 @@
 {
-  "date": "November 27, 2026",
-  "question": "Rising on Senegal's Cap-Vert peninsula near Dakar, what pair of extinct volcanic cones marks the westernmost volcanic formation on the African mainland?",
-  "answer": "Les Mamelles",
-  "stat_category": "Volcanoes",
-  "fun_fact": "Dakar's iconic Phare des Mamelles lighthouse sits atop the higher of these twin volcanic hills, active since 1864.",
-  "show_answer": true,
+  "date": "November 28, 2026",
+  "question": "Located in the Eastern Region of Ghana, which twin waterfalls are famous for consisting of separate 'male' and 'female' cascades that merge into one during the peak rainy season?",
+  "answer": "Boti Falls",
+  "stat_category": "Physical Geography",
+  "fun_fact": "When the two falls merge during high water levels, locals describe them as 'mating', an event often crowned by a vivid rainbow over the pool.",
+  "show_answer": false,
   "geo_days": [
-    {
-      "date": "2026-11-26",
-      "question": "Which active stratovolcano, the highest peak in Cape Verde, features a community inside its vast caldera that famously cultivates grapes in volcanic ash to produce prized wine?",
-      "answer": "Pico do Fogo",
-      "stat_category": "Mountains",
-      "fun_fact": "Despite devastating eruptions in 1995 and 2014, local vintners consistently return to the caldera floor to cultivate vines in the mineral-rich volcanic ash."
-    },
     {
       "date": "2026-11-27",
       "question": "Rising on Senegal's Cap-Vert peninsula near Dakar, what pair of extinct volcanic cones marks the westernmost volcanic formation on the African mainland?",
@@ -26,6 +19,13 @@
       "answer": "Boti Falls",
       "stat_category": "Physical Geography",
       "fun_fact": "When the two falls merge during high water levels, locals describe them as 'mating', an event often crowned by a vivid rainbow over the pool."
+    },
+    {
+      "date": "2026-11-29",
+      "question": "Which crater-like body of water high in the Colombian Andes served as a sacred ceremonial site for the Muisca civilization and inspired the legendary myth of El Dorado?",
+      "answer": "Lake Guatavita",
+      "stat_category": "Lakes",
+      "fun_fact": "In 1580, a merchant partially drained the lake by carving a giant notch in its rim, recovering fine gold trinkets before the trench collapsed."
     }
   ]
 }

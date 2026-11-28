@@ -57,7 +57,8 @@
     "Kazakhstan",
     "Cape Verde",
     "Senegal",
-    "Ghana"
+    "Ghana",
+    "Colombia"
   ],
   "past_trivia": [
     {
@@ -796,26 +797,26 @@
       "fun_fact": "When the two falls merge during high water levels, locals describe them as 'mating', an event often crowned by a vivid rainbow over the pool.",
       "country": "Ghana",
       "date": "November 28, 2026"
+    },
+    {
+      "question": "Which crater-like body of water high in the Colombian Andes served as a sacred ceremonial site for the Muisca civilization and inspired the legendary myth of El Dorado?",
+      "answer": "Lake Guatavita",
+      "stat_category": "Lakes",
+      "fun_fact": "In 1580, a merchant partially drained the lake by carving a giant notch in its rim, recovering fine gold trinkets before the trench collapsed.",
+      "country": "Colombia",
+      "date": "November 29, 2026"
     }
   ],
   "todays_trivia": {
-    "question": "Rising on Senegal's Cap-Vert peninsula near Dakar, what pair of extinct volcanic cones marks the westernmost volcanic formation on the African mainland?",
-    "answer": "Les Mamelles",
-    "stat_category": "Volcanoes",
-    "fun_fact": "Dakar's iconic Phare des Mamelles lighthouse sits atop the higher of these twin volcanic hills, active since 1864.",
-    "country": "Senegal",
-    "date": "November 27, 2026"
+    "question": "Located in the Eastern Region of Ghana, which twin waterfalls are famous for consisting of separate 'male' and 'female' cascades that merge into one during the peak rainy season?",
+    "answer": "Boti Falls",
+    "stat_category": "Physical Geography",
+    "fun_fact": "When the two falls merge during high water levels, locals describe them as 'mating', an event often crowned by a vivid rainbow over the pool.",
+    "country": "Ghana",
+    "date": "November 28, 2026"
   },
-  "last_run_date": "November 27, 2026",
+  "last_run_date": "November 28, 2026",
   "schedule": {
-    "2026-11-20": {
-      "question": "Situated at the southern tip of the Tsawwassen Peninsula south of the 49th parallel, which pene-exclave of Washington state cannot be reached overland from the rest of the United States without traveling through Canada?",
-      "answer": "Point Roberts",
-      "stat_category": "borders and enclaves",
-      "fun_fact": "Because Point Roberts lacks a secondary school, local American students must cross the international border four times a day by bus to attend school in Blaine, Washington.",
-      "country": "United States",
-      "date": "November 20, 2026"
-    },
     "2026-11-21": {
       "question": "Carved into the rugged terrain of Telemark, which deep, east-west glacial valley is so heavily shadowed by steep surrounding mountains that giant hillside heliostat mirrors were installed to illuminate its floor during winter?",
       "answer": "Vestfjorddalen",
@@ -879,6 +880,14 @@
       "fun_fact": "When the two falls merge during high water levels, locals describe them as 'mating', an event often crowned by a vivid rainbow over the pool.",
       "country": "Ghana",
       "date": "November 28, 2026"
+    },
+    "2026-11-29": {
+      "question": "Which crater-like body of water high in the Colombian Andes served as a sacred ceremonial site for the Muisca civilization and inspired the legendary myth of El Dorado?",
+      "answer": "Lake Guatavita",
+      "stat_category": "Lakes",
+      "fun_fact": "In 1580, a merchant partially drained the lake by carving a giant notch in its rim, recovering fine gold trinkets before the trench collapsed.",
+      "country": "Colombia",
+      "date": "November 29, 2026"
     }
   }
 }
